@@ -10,4 +10,4 @@ for item in md_files:
     md_files_no_ext.append(item[:-3])
 
 for item in md_files_no_ext:
-    os.system(f'pandoc --data-dir /big-stuff/files/websites/personal-site/html --template template.html -t html -o {item}.html {item}.md')
+    os.system(f'pandoc -f markdown-smart --data-dir /big-stuff/files/websites/personal-site/html --template template.html -t html -o {item}.html {item}.md')
