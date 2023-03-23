@@ -2,6 +2,8 @@
 
 I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci and Coding Club. This is my site.
 
+[See my resume here!](/resume.html)
+
 ## Personal links
 
 - [Gitea](https://git.askiiart.net/askiiart) (my main git thing)
