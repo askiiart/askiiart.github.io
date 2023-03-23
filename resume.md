@@ -3,7 +3,7 @@
 <p>
 Benjamin Zimmerman
 <br>
-[resume@askiiart.net](mailto:resume@askiiart.net)
+<a href="mailto:resume@askiiart.net">resume@askiiart.net</a>
 <br>
 This is public, so I'm not going to put my phone number or address here.  If you want it, ask.
 </p>
