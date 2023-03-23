@@ -19,7 +19,6 @@ I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci an
 - [Gitea](https://git.askiiart.net/)
 - [The archives](/archives/)
   - If there's something I should add to the archives, contact me on Discord.
-  - Additionally, there's [this section](/archives/iso-and-stuff/Windows/) of the archives with nearly every piece Windows installation media there is - even server, IoT, and embedded versions. Get your Windows ISOs here!
 - [My yum repo](https://askiiart.net/repo/)
   - A yum repo for stuff I add. I'll probably make it into an NVIDIA 470 driver repo because [NVIDIA is a pain](https://www.youtube.com/watch?v=IVpOyKCNZYw).
 - [Element](https://element.askiiart.net/)

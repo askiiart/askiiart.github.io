@@ -24,7 +24,7 @@ Highlights:
 - [askiiart/askiiart-net](https://git.askiiart.net/askiiart/askiiart-net)
   - My site's source code
 - [askiiart.net](https://askiiart.net)
-  - My site. I've got a bunch of services running on it, like [Gitea](https://git.askiiart.net), [Invidious](https://invidious.askiiart.net), and an [archive of Windows `.iso` files](https://askiiart.net/archives/iso-and-stuff/Windows/).
+  - My site. I've got a bunch of services running on it, like [Gitea](https://git.askiiart.net) and [Invidious](https://invidious.askiiart.net).
 
 ## Academics
 
