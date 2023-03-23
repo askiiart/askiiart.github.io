@@ -1,7 +1,9 @@
 # Resume
 
 Benjamin Zimmerman
+
 [resume@askiiart.net](mailto:resume@askiiart.net)
+
 This is public, so I'm not going to put my phone number or address here.  If you want it, ask.
 
 ## Professional Experience
