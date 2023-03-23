@@ -17,8 +17,6 @@ I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci an
 ## Site Links
 
 - [Gitea](https://git.askiiart.net/)
-- [The archives](/archives/)
-  - If there's something I should add to the archives, contact me on Discord.
 - [My yum repo](https://askiiart.net/repo/)
   - A yum repo for stuff I add. I'll probably make it into an NVIDIA 470 driver repo because [NVIDIA is a pain](https://www.youtube.com/watch?v=IVpOyKCNZYw).
 - [Element](https://element.askiiart.net/)
