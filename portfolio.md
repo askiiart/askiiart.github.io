@@ -2,7 +2,7 @@
 
 ## Projects
 
-- askiiart/universal-fast-stable-diffusion
+- [askiiart/universal-fast-stable-diffusion](https://git.askiiart.net/askiiart/universal-fast-stable-diffusion)
   - A semi-universal version of [TheLastBen/fast-stable-diffusion](https://github.com/TheLastBen/fast-stable-diffusion), it just requires a supported GPU and the dependencies to be installed.
 - [askiiart.net](https://askiiart.net)
   - My site. I've got a bunch of services running on it, like [Gitea](https://git.askiiart.net), [Invidious](https://invidious.askiiart.net), and an [archive of Windows `.iso` files](https://askiiart.net/archives/iso-and-stuff/Windows/).
