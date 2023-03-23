@@ -1,5 +1,7 @@
 # Resume
 
+[//]: # (Formatted like this so that pandoc doesn't make these separate paragraphs)
+
 <p>
 Benjamin Zimmerman
 <br>
@@ -17,10 +19,10 @@ This is public, so I'm not going to put my phone number or address here.  If you
 
 Highlights:
 
-- askiiart/universal-fast-stable-diffusion
+- [askiiart/universal-fast-stable-diffusion](http://github.com/askiiart/universal-fast-stable-diffusion)
   - A semi-universal version of [TheLastBen/fast-stable-diffusion](https://github.com/TheLastBen/fast-stable-diffusion), it just requires a supported GPU and the dependencies to be installed.
 - [askiiart/askiiart-net](https://git.askiiart.net/askiiart/askiiart-net)
-  - My site's source code - check 
+  - My site's source code
 - [askiiart.net](https://askiiart.net)
   - My site. I've got a bunch of services running on it, like [Gitea](https://git.askiiart.net), [Invidious](https://invidious.askiiart.net), and an [archive of Windows `.iso` files](https://askiiart.net/archives/iso-and-stuff/Windows/).
 
