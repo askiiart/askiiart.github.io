@@ -1,6 +1,6 @@
 # askiiart's site
 
-I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci and Coding Club. This is my site.
+I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci and Coding Club](https://codeberg.org/TCCD-CompSci-and-Coding-Club/). This is my site.
 
 **[See my resume here!](/resume.html)**
 
@@ -8,7 +8,7 @@ I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci an
 
 - [Gitea](https://git.askiiart.net/askiiart) (my main git thing)
 - [GitHub](https://github.com/askiiart)
-- [Codeberg](https://codeberg.org/TCCD-CompSci-and-Coding-Club/) (rarely used, aside from club stuff)
+- [Codeberg](https://codeberg.org/askiiart/) (rarely used, aside from club stuff)
 - [Mastodon](https://infosec.exchange/@askiiart)
 - [Hacker News](https://news.ycombinator.com/user?id=askiiart)
 - Discord: [askiiart#5353](https://discord.com/users/552658564368302092)
@@ -30,9 +30,9 @@ I'm a hobby programmer, and co-founder and vice president of the TCCD CompSci an
 - [Invidious](https://invidious.askiiart.net/)
   - A privacy-focused, ad-free YouTube frontend
 - [Status](https://status.askiiart.net/)
-  - The status page for all the publicly accessible stuff.
+  - The status page for all the publicly accessible services on my site.
 - [Bibliogram](https://bibliogram.askiiart.net/applysettings/3bb4944d6d346268ae9bd84f42bc9a51)
-  - An alternative frontend to Instagram
+  - An alternative frontend to Instagram (currently broken).
 
 ## Cool Stuff
 
