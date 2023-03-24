@@ -38,5 +38,5 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 
 - [StreetPass for Mastodon](https://streetpass.social/)
   - Basically Nintendo StreetPass, but for Mastodon
-- [Best Motherf**king Website](https://bestmotherfucking.website/)
-  - A fantastic looking, satirical website, mocking things including but not limited to: "5MB background video\[s\] of hipsters poking at their iPhones"
+- [Best Motherf**king Website](https://bestmotherfucking.website/) (sorry for the harsh language)
+  - A fantastic looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
