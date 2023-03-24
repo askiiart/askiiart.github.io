@@ -40,7 +40,7 @@ Highlights:
 
 ## Academics
 
-- High school, diploma anticipated 2025
+- High school diploma, anticipated 2025
   - Collegiate Academy of Birdville, Haltom City, Texas
   - Current GPA 3.8
 - Associate of Applied Science in Programming, degree anticipated 2025
