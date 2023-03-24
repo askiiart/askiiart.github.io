@@ -40,13 +40,12 @@ Highlights:
 
 ## Academics
 
-- Collegiate Academy of Birdville student (graduating 2025)
-- Tarrant County College (graduating 2025)
-  - Majoring in programming.
-- Completed 25 credit hours of college courses (29 including AP credits)
-- Programming-related classes:
-  - AP Computer Science A: AP Java class, gave credit for COSC-1436 (Programming Fundamentals I), taken as a freshman in 2021-2022.
-  - ITSE-1479 (Intro to Scripting Languages): A Python class, taken over the summer of 2022.
+- High school, diploma anticipated 2025
+  - Collegiate Academy of Birdville, Haltom City, Texas
+  - Current GPA 3.8
+- Associate of Applied Science in Programming, degree anticipated 2025
+  - Tarrant County College, Tarrant County, Texxas
+  - Current GPA 3.8
 
 ## Extracurriculars and community service
 
