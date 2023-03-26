@@ -1,7 +1,7 @@
 import os
 from glob import glob
 
-#os.chdir('/big-stuff/files/websites/personal-site/html')
+os.chdir('/big-stuff/files/websites/personal-site/html')
 md_files = glob('*.md')
 md_files_no_ext = []
 
