@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="/askiiart.gif" type="image/icon">
+        <title>My Stack</title>
+        <link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 id="my-stack">My Stack</h1>
+        <h2 id="hardware">Hardware</h2>
+        <ul>
+        <li>CPU: Ryzen 5 3600</li>
+        <li>Motherboard: Gigabyte B450M DS3H WIFI</li>
+        <li>RAM: 2x 8GB DDR4-3200</li>
+        <li>SSD: 500GB ADATA (for boot)</li>
+        <li>HDDs: 3x 4TB Toshiba X300s (for bulk storage)</li>
+        <li>PSU: Corsair CX450M (2015)</li>
+        <li>UPS: CyberPower CP1500PFCLCD</li>
+        <li>Case: Silverstone PS09 (would recommend!)</li>
+        <li>Fans: One 80mm fan in rear (blows air out, model and details unknown), One AVC 8025 DS08025R12U in front (pulls air in)</li>
+        <li>GPU: None</li>
+        </ul>
+        <h2 id="software">Software</h2>
+        <ul>
+        <li>OS: Proxmox VE 7.3.1</li>
+        <li>Docker installed natively (not in VM or LXC container)
+        <ul>
+        <li>Using only docker-compose files</li>
+        </ul></li>
+        <li>ZFS is set up, the HDDs are in a RAIDZ1 pool
+        <ul>
+        <li>Equivalent to RAID-5</li>
+        <li>Speed: 2x read speed, normal write speed</li>
+        <li>8TB of capacity available</li>
+        <li>Can lose any one drive without losing any data.</li>
+        </ul></li>
+        </ul>
+        <h2 id="website">Website</h2>
+        <ul>
+        <li>Running on nginx in Docker</li>
+        <li>Behind a reverse proxy via <code>nginx-proxy-manager</code></li>
+        <li>Written in markdown, then converted to HTML using <code>pandoc</code>
+        <ul>
+        <li>Script for this <a href="https://git.askiiart.net/askiiart/askiiart-net/src/branch/main/md2html.py">here</a></li>
+        <li><code>pandoc</code> is one of the very few things I don't have in Docker (yet)</li>
+        </ul></li>
+        <li><a href="https://git.askiiart.net/askiiart/askiiart-net">All in a git repo</a></li>
+        </ul>
+    </body>
+    <footer>
+        <p>To view this page in markdown, replace the <code>.html</code> in the URL with <code>.md</code>. If this is the root page (askiiart.net), get the markdown version of it at <a href="/index.md">index.md</a></p>
+    </footer>
+</html>
