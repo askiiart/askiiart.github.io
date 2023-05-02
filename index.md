@@ -6,18 +6,18 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 
 ## Personal links
 
-- [Gitea](https://git.askiiart.net/askiiart) (my main git thing)
-- [GitHub](https://github.com/askiiart)
-- [Codeberg](https://codeberg.org/askiiart/) (rarely used, aside from club stuff)
-- [Mastodon](https://infosec.exchange/@askiiart)
+- <a rel="me" href="https://git.askiiart.net/askiiart">Gitea</a> (my main git thing)
+- <a rel="me" href="https://github.com/askiiart">GitHub</a>
+- <a rel="me" href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
+- <a rel="me" href="https://infosec.exchange/@askiiart">Mastodon</a>
 - [Hacker News](https://news.ycombinator.com/user?id=askiiart)
 - Discord: [askiiart#5353](https://discord.com/users/552658564368302092)
-- Email: [dev@askiiart.net](mailto:dev@askiiart.net)
+- Email: <a rel="me" href="mailto:mail@askiiart.net">mail@askiiart.net</a>
 
 ## Site Links
 
 - [Gitea](https://git.askiiart.net/)
-- [My yum repo](https://askiiart.net/repo/)
+- [My yum repo](https://askiiart.net/repos/)
   - A yum repo for stuff I add. I'll probably make it into an NVIDIA 470 driver repo because [NVIDIA is a pain](https://www.youtube.com/watch?v=IVpOyKCNZYw).
 - [Element](https://element.askiiart.net/)
   - It's Element, the Matrix client
