@@ -17,7 +17,7 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 ## Site Links
 
 - [Gitea](https://git.askiiart.net/)
-- [My yum repo](https://askiiart.net/repos/)
+- [My yum repo](/repos/)
   - A yum repo for stuff I add. I'll probably make it into an NVIDIA 470 driver repo because [NVIDIA is a pain](https://www.youtube.com/watch?v=IVpOyKCNZYw).
 - [Element](https://element.askiiart.net/)
   - It's Element, the Matrix client
@@ -34,16 +34,20 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 - [Bibliogram](https://bibliogram.askiiart.net/applysettings/3bb4944d6d346268ae9bd84f42bc9a51)
   - An alternative frontend to Instagram (currently broken).
 
+## Pages
+
+- Index AKA this page ([markdown](/index.md))
+- Blog
+  - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation. ([markdown](/blog/marlin-boot-animations.md))
+- [Resume](/resume.html) ([markdown](/resume.md))
+- [Portfolio](/portfolio.html) ([markdown](/portfolio.md))
+
 ## Cool Stuff
 
 - [StreetPass for Mastodon](https://streetpass.social/)
   - Basically Nintendo StreetPass, but for Mastodon
 - [Best Motherf**king Website](https://bestmotherfucking.website/) (sorry for the harsh language)
   - A fantastic looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
-
-## Blog posts
-
-- [Marlin Boot Animations](https://askiiart.net/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation.
 
 ## Other/Meta
 
