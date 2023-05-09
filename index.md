@@ -36,7 +36,7 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 
 ## Pages
 
-- Index AKA this page ([markdown](/index.md))
+- This page ([markdown](/index.md))
 - Blog
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation. ([markdown](/blog/marlin-boot-animations.md))
 - [Resume](/resume.html) ([markdown](/resume.md))
