@@ -40,3 +40,7 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
   - Basically Nintendo StreetPass, but for Mastodon
 - [Best Motherf**king Website](https://bestmotherfucking.website/) (sorry for the harsh language)
   - A fantastic looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
+
+## Blog posts
+
+- [Marlin Boot Animations](https://askiiart.net/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation.

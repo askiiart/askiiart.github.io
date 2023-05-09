@@ -1,12 +1,9 @@
 import os
-from glob import glob
+from pathlib import Path
 
-os.chdir('/big-stuff/files/websites/personal-site/html')
-md_files = glob('*.md')
-md_files_no_ext = []
+dir = os.path.dirname(__file__)
+os.chdir(dir)
+files = [str(item)[:-3] for item in Path(dir).rglob('*.md')]
 
-for item in md_files:
-    md_files_no_ext.append(item[:-3])
-
-for item in md_files_no_ext:
+for item in files:
     os.system(f'pandoc -f markdown-smart --data-dir . --template template.html -t html -o {item}.html {item}.md --metadata title=\"$(grep -m 1 -oP \'(?<=^# ).*\' {item}.md | cat)\"')
