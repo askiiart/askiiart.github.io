@@ -18,3 +18,10 @@ h1,h2,h3 {
              max-width:none
         }
 }
+code {
+        background: #202020
+}
+pre {
+
+        background: #202020
+}
