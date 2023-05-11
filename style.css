@@ -25,3 +25,6 @@ pre {
 
         background: #202020
 }
+wrap {
+        word-wrap: break-word
+}

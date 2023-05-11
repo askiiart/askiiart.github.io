@@ -27,8 +27,8 @@
 ## Website
 
 - Running on nginx in Docker
-- Behind a reverse proxy via `nginx-proxy-manager`
-- Written in markdown, then converted to HTML using `pandoc`
+- Behind Caddy as a reverse proxy
+- Written in markdown, then converted to HTML using pandoc
   - Script for this [here](https://git.askiiart.net/askiiart/askiiart-net/src/branch/main/md2html.py)
-  - `pandoc` is one of the very few things I don't have in Docker (yet)
+  - pandoc is one of the very few things I don't have in Docker (yet)
 - [All in a git repo](https://git.askiiart.net/askiiart/askiiart-net)
