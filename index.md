@@ -11,7 +11,7 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 - <a rel="me" href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
 - <a rel="me" href="https://infosec.exchange/@askiiart">Mastodon</a>
 - [Hacker News](https://news.ycombinator.com/user?id=askiiart)
-- Discord: [askiiart#5353](https://discord.com/users/552658564368302092)
+- Discord: [askiiart](https://discord.com/users/552658564368302092)
 - Email: <a rel="me" href="mailto:mail@askiiart.net">mail@askiiart.net</a>
 
 ## Site Links
