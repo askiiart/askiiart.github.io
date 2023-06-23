@@ -53,4 +53,6 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 
 If you like what you see here, a donation would be nice.
 
+[//]: # (For CSS for wrapping even if cutting off the word, see /style.css.)
+
 - <wrap>Monero: [8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w](monero:8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w&tx_description=donation_from_site)</wrap>
