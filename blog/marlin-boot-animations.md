@@ -6,7 +6,7 @@ In Marlin (the 3D Printer firmware), you can have an animated Bootscreen. This a
 
 Here's an example of an animated `_Bootscreen.h`:
 
-```
+```cpp
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -349,7 +349,7 @@ and so on. For a static boot screen, only use `custom_start_bmp`.
 
 Each array looks like the one below, which is the Linux Mint logo.
 
-```
+```cpp
 const unsigned char custom_start_bmp[] PROGMEM = {
   B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,
   B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,B11111111,
@@ -428,7 +428,7 @@ Note that the earlier example was generated using `convert`, so it's in hexadeci
 
 ### The end
 
-```
+```cpp
 #ifdef CUSTOM_BOOTSCREEN_ANIMATED_FRAME_TIME
 
   // Each frame has its own custom duration
