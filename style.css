@@ -1,30 +1,43 @@
-@media{
-        body {color:#fff;background:#101213}
-        a:link {color:#80c47b}
-        a:hover, a:visited:hover {color:#6bb794}
-        a:visited {color:#80c47b}
+body {
+        color: #fff;
+        background: #101213;
+        margin: 1em auto;
+        max-width: 100em;
+        padding: 0 .62em;
+        font: 1.0em/1.35 sans-serif
 }
-body{
-        margin:1em auto;
-        max-width:100em;
-        padding:0 .62em;
-        font:1.0em/1.35 sans-serif
+
+a:link,
+a:visited {
+        color: #80c47b;
 }
-h1,h2,h3 {
-        line-height:1.2
+
+a:hover,
+a:visited:hover {
+        color: #6bb794
 }
-@media print{
-        body{
-             max-width:none
+
+h1,
+h2,
+h3 {
+        line-height: 1.2
+}
+
+@media print {
+        body {
+                max-width: none
         }
 }
+
 code {
         background: #202020
 }
+
 pre {
 
         background: #202020
 }
+
 wrap {
         word-wrap: break-word
 }
