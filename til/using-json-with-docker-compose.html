@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.gif" type="image/icon">
+        <title>Using JSON with docker compose</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1 id="using-json-with-docker-compose">Using JSON with docker
+        compose</h1>
+        <p>Turns out you can use JSON with docker compose! It's a bit
+        lengthier than YAML, but you don't have to deal with weird
+        whitespace issues wasting half an hour of your time. Here's an
+        example of a docker compose file in JSON:</p>
+        <div class="sourceCode" id="cb1"><pre
+        class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;version&quot;</span><span class="fu">:</span> <span class="st">&quot;3.8&quot;</span><span class="fu">,</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">&quot;services&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">&quot;nginx&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&quot;image&quot;</span><span class="fu">:</span> <span class="st">&quot;nginx:alpine&quot;</span><span class="fu">,</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&quot;ports&quot;</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;8080:80&quot;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>      <span class="ot">]</span><span class="fu">,</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>      <span class="dt">&quot;volumes&quot;</span><span class="fu">:</span> <span class="ot">[</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="st">&quot;./html:/usr/share/nginx/html&quot;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>      <span class="ot">]</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="fu">}</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">}</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
+        <p>To use it, just run
+        <code>docker-compose -f docker-compose.json up</code> instead of
+        <code>docker-compose up</code>. Or you can just write the JSON
+        in <code>docker-compose.yaml</code> like a madman. It'll work,
+        though if you do that, you're definitely a psychopath /s</p>
+        <p>P.S. If you want a GUI for it, then I'd recommend using <a
+        href="https://github.com/aleiepure/devtoolbox">aleiepure/devtoolbox</a>
+        to convert JSON to YAML and vice-versa. It's also got a JSON
+        formatter and a <em>ton</em> of other tools, so I'd definitely
+        recommend installing it anyways.</p>
+    </body>
+    <footer>
+        <p>To view this page in markdown, replace the <code>.html</code> in the URL with <code>.md</code>. If this is the root page (askiiart.net), get the markdown version of it at <a href="/index.md">index.md</a>. Source code <a href="https://github.com/askiiart/askiiart.github.io">here</a> and <a href="https://git.askiiart.net/askiiart/askiiart-net">here</a>.</p>
+    </footer>
+</html>
