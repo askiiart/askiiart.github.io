@@ -5,7 +5,7 @@
 <p>
 Benjamin Zimmerman
 <br>
-<a href="resume@askiiart.net">resume@askiiart.net</a>
+<a href="mailto:resume@askiiart.net">resume@askiiart.net</a>
 <br>
 This is public, so I'm not going to put my phone number or address here.  Please use email as the primary method of contact.
 </p>
