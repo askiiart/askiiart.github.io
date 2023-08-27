@@ -11,46 +11,65 @@
         <h1 id="my-stack">My Stack</h1>
         <h2 id="hardware">Hardware</h2>
         <ul>
-        <li>CPU: Ryzen 5 3600</li>
-        <li>Motherboard: Gigabyte B450M DS3H WIFI</li>
+        <li>CPU: Intel i5-12400</li>
+        <li>Motherboard: MSI PRO B660-A</li>
         <li>RAM: 2x 8GB DDR4-3200</li>
-        <li>SSD: 500GB ADATA (for boot)</li>
-        <li>HDDs: 3x 4TB Toshiba X300s (for bulk storage)</li>
-        <li>PSU: Corsair CX450M (2015)</li>
+        <li>SSD: 500GB ADATA (for cache)</li>
+        <li>HDDs:
+        <ul>
+        <li>3x 4TB Toshiba X300s (for bulk storage)</li>
+        <li>1x 8TB Seagate Barracuda Compute (for parity), would not
+        recommend due to SMR.</li>
+        </ul></li>
+        <li>PSU: Corsair RM750x</li>
         <li>UPS: CyberPower CP1500PFCLCD</li>
-        <li>Case: Silverstone PS09 (would recommend!)</li>
-        <li>Fans: One 80mm fan in rear (blows air out, model and details
-        unknown), One AVC 8025 DS08025R12U in front (pulls air in)</li>
-        <li>GPU: None</li>
+        <li>Case: Some obscure thing from Cybertron (now CLX
+        Gaming)</li>
+        <li>GPU: Integrated Intel UHD 750</li>
         </ul>
         <h2 id="software">Software</h2>
         <ul>
-        <li>OS: Proxmox VE 7.3.1</li>
-        <li>Docker installed natively (not in VM or LXC container)
-        <ul>
-        <li>Using only docker-compose files</li>
-        </ul></li>
-        <li>ZFS is set up, the HDDs are in a RAIDZ1 pool
+        <li>OS: Unraid 6.11.5</li>
+        <li>Docker installed natively, but I might move it to a Debian
+        VM</li>
+        <li>Storage: 3x 4TB, 1x 8TB parity drive, 512GB cache drive,
+        running off a 32GB USB drive
         <ul>
         <li>Equivalent to RAID-5</li>
-        <li>Speed: 2x read speed, normal write speed</li>
-        <li>8TB of capacity available</li>
+        <li>12TB of capacity available</li>
         <li>Can lose any one drive without losing any data.</li>
         </ul></li>
+        <li><a
+        href="https://pcpartpicker.com/user/Cheap_Fleet/saved/pR82kL">PC
+        Part Picker Link</a></li>
         </ul>
         <h2 id="website">Website</h2>
         <ul>
         <li>Running on nginx in Docker</li>
         <li>Behind Caddy as a reverse proxy</li>
-        <li>Written in markdown, then converted to HTML using pandoc
+        <li>Written in markdown, then converted to HTML using pandoc.
         <ul>
         <li>Script for this <a
         href="https://git.askiiart.net/askiiart/askiiart-net/src/branch/main/md2html.py">here</a></li>
         <li>pandoc is one of the very few things I don't have in Docker
         (yet)</li>
         </ul></li>
-        <li><a href="https://git.askiiart.net/askiiart/askiiart-net">All
-        in a git repo</a></li>
+        <li>Syntax highlighting using <a
+        href="https://prismjs.com"><code>prism.js</code></a></li>
+        <li><a href="https://git.askiiart.net/askiiart/askiiart-net">In
+        a git repo</a></li>
+        </ul>
+        <h2 id="docker-registry">Docker registry</h2>
+        <ul>
+        <li>Currently just redirecting to <a
+        href="https://hub.docker.com/u/askiiart">Docker Hub</a>, using
+        the Caddy config from <a
+        href="https://httptoolkit.com/blog/docker-image-registry-facade/">here</a>
+        (<a
+        href="https://github.com/httptoolkit/docker-registry-facade/blob/main/Caddyfile">direct
+        link to Caddyfile</a>)</li>
+        <li>I'll probably set up a proper self-hosted registry later,
+        but I haven't gotten to it yet.</li>
         </ul>
         <script src="/prism.js"></script>
     </body>

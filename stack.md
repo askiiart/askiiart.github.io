@@ -22,6 +22,7 @@
   - Equivalent to RAID-5
   - 12TB of capacity available
   - Can lose any one drive without losing any data.
+- [PC Part Picker Link](https://pcpartpicker.com/user/Cheap_Fleet/saved/pR82kL)
 
 ## Website
 
