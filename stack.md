@@ -2,33 +2,38 @@
 
 ## Hardware
 
-- CPU: Ryzen 5 3600
-- Motherboard: Gigabyte B450M DS3H WIFI
+- CPU: Intel i5-12400
+- Motherboard: MSI PRO B660-A
 - RAM: 2x 8GB DDR4-3200
-- SSD: 500GB ADATA (for boot)
-- HDDs: 3x 4TB Toshiba X300s (for bulk storage)
-- PSU: Corsair CX450M (2015)
+- SSD: 500GB ADATA (for cache)
+- HDDs:
+  - 3x 4TB Toshiba X300s (for bulk storage)
+  - 1x 8TB Seagate Barracuda Compute (for parity), would not recommend due to SMR.
+- PSU: Corsair RM750x
 - UPS: CyberPower CP1500PFCLCD
-- Case: Silverstone PS09 (would recommend!)
-- Fans: One 80mm fan in rear (blows air out, model and details unknown), One AVC 8025 DS08025R12U in front (pulls air in)
-- GPU: None
+- Case: Some obscure thing from Cybertron (now CLX Gaming)
+- GPU: Integrated Intel UHD 750
 
 ## Software
 
-- OS: Proxmox VE 7.3.1
-- Docker installed natively (not in VM or LXC container)
-  - Using only docker-compose files
-- ZFS is set up, the HDDs are in a RAIDZ1 pool
+- OS: Unraid 6.11.5
+- Docker installed natively, but I might move it to a Debian VM
+- Storage: 3x 4TB, 1x 8TB parity drive, 512GB cache drive, running off a 32GB USB drive
   - Equivalent to RAID-5
-  - Speed: 2x read speed, normal write speed
-  - 8TB of capacity available
+  - 12TB of capacity available
   - Can lose any one drive without losing any data.
 
 ## Website
 
 - Running on nginx in Docker
 - Behind Caddy as a reverse proxy
-- Written in markdown, then converted to HTML using pandoc
+- Written in markdown, then converted to HTML using pandoc.
   - Script for this [here](https://git.askiiart.net/askiiart/askiiart-net/src/branch/main/md2html.py)
   - pandoc is one of the very few things I don't have in Docker (yet)
-- [All in a git repo](https://git.askiiart.net/askiiart/askiiart-net)
+- Syntax highlighting using [`prism.js`](https://prismjs.com)
+- [In a git repo](https://git.askiiart.net/askiiart/askiiart-net)
+
+## Docker registry
+
+- Currently just redirecting to [Docker Hub](https://hub.docker.com/u/askiiart), using the Caddy config from [here](https://httptoolkit.com/blog/docker-image-registry-facade/) ([direct link to Caddyfile](https://github.com/httptoolkit/docker-registry-facade/blob/main/Caddyfile))
+- I'll probably set up a proper self-hosted registry later, but I haven't gotten to it yet.
