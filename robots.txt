@@ -1,6 +1,3 @@
 User-agent: *
 Disallow: /wishlist.md
 Disallow: /wishlist.html
-
-User-agent: GPTBot
-Disallow: /
