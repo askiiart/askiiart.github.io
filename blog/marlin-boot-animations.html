@@ -337,8 +337,9 @@
         <p><strong>Here's a breakdown of that.</strong></p>
         <h3 id="the-start">The start</h3>
         <ul>
-        <li><code>#pragma once</code>: I don't know what this does, but
-        it's in both animated and static boot screens.</li>
+        <li><code>#pragma once</code>: Just generic C/C++ stuff to make
+        sure the file is only included once, nothing interesting. (<a
+        href="https://en.wikipedia.org/wiki/Pragma_once">Wikipedia</a>)</li>
         <li><code>#define CUSTOM_BOOTSCREEN_ANIMATED</code>: Sets it to
         be an animated, not static, boot screen.</li>
         <li><code>define CUSTOM_BOOTSCREEN_TIMEOUT 0</code>: The extra
@@ -453,7 +454,8 @@
         decimal, unlike <a
         href="https://marlinfw.org/tools/u8glib/converter.html"><code>converter.html</code></a>
         would have generated. It's actually 3 frames (0.6 seconds) of
-        Bad Apple (albeit a bit messed up).</p>
+        Bad Apple (albeit a bit messed up for unknown reasons, but not
+        because I'm using <code>convert</code> instead).</p>
         <h3 id="the-end">The end</h3>
         <div class="sourceCode" id="cb3"><pre
         class="language-cpp"><code class="language-cpp"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">#ifdef CUSTOM_BOOTSCREEN_ANIMATED_FRAME_TIME</span></span>
@@ -489,7 +491,7 @@
         <code>custom_start_bmp1</code>)</li>
         <li>Add the ending code.</li>
         </ol>
-        <h2 id="automatically">Automatically</h2>
+        <h3 id="automatically">Automatically</h3>
         <p>Note: This only allows for 5 FPS, no more, no less. However,
         I may edit <code>animator.py</code> to have an adjustable
         framerate.</p>
