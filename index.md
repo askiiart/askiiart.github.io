@@ -39,6 +39,9 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 - This page ([markdown](/index.md))
 - Blog
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation. ([markdown](/blog/marlin-boot-animations.md))
+- TIL
+  - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
+  - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
 - [Resume](/resume.html) ([markdown](/resume.md))
 - [Portfolio](/portfolio.html) ([markdown](/portfolio.md))
 
