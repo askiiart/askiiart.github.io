@@ -6,13 +6,13 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 
 ## Personal links
 
-- <a rel="me" href="https://git.askiiart.net/askiiart">Gitea</a> (my main git thing)
-- <a rel="me" href="https://github.com/askiiart">GitHub</a>
-- <a rel="me" href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
+- <a href="https://git.askiiart.net/askiiart">Gitea</a> (my main git thing)
+- <a href="https://github.com/askiiart">GitHub</a>
+- <a href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
 - <a rel="me" href="https://tech.lgbt/@askiiart">Mastodon</a>
 - [Hacker News](https://news.ycombinator.com/user?id=askiiart)
 - Discord: [askiiart](https://discord.com/users/552658564368302092)
-- Email: <a rel="me" href="mailto:mail@askiiart.net">mail@askiiart.net</a>
+- Email: <a href="mailto:mail@askiiart.net">mail@askiiart.net</a>
 
 ## Site Links
 
