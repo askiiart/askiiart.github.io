@@ -1,8 +1,8 @@
 body {
-        color: #fff;
-        background: #101213;
+        color: #dadada;
+        background: #202020;
         margin: 1em auto;
-        max-width: 100em;
+        max-width: 90vw;
         padding: 0 .62em;
         font: 1.0em/1.35 sans-serif
 }
@@ -41,7 +41,7 @@ wrap {
                 line-height: 1.2;
                 font-size: 40px;
         }
-        
+
         h2 {
                 line-height: 1.2;
                 font-size: 30px;
