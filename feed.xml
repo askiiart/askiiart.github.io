@@ -5,11 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Mon, 25 Sep 2023 19:29:33 +0000</lastBuildDate>
-  <item>
-    <title>Portfolio</title>
-    <link>https://askiiart.net/portfolio.html</link>
-  </item>
+  <lastBuildDate>Mon, 25 Sep 2023 19:46:11 +0000</lastBuildDate>
   <item>
     <title>Marlin Boot Animations</title>
     <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
@@ -21,14 +17,6 @@
   <item>
     <title>My Stack</title>
     <link>https://askiiart.net/stack.html</link>
-  </item>
-  <item>
-    <title>Wishlist</title>
-    <link>https://askiiart.net/wishlist.html</link>
-  </item>
-  <item>
-    <title>Resume</title>
-    <link>https://askiiart.net/resume.html</link>
   </item>
   <item>
     <title>Using JSON with docker compose</title>
