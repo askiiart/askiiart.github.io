@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>askiiart.net</title>
+  <description>The feed for askiiart.net, I guess</description>
+  <link>https://askiiart.net</link>
+  <lastBuildDate>Mon, 25 Sep 2023 19:29:33 +0000</lastBuildDate>
+  <item>
+    <title>Portfolio</title>
+    <link>https://askiiart.net/portfolio.html</link>
+  </item>
+  <item>
+    <title>Marlin Boot Animations</title>
+    <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
+  </item>
+  <item>
+    <title>askiiart's site</title>
+    <link>https://askiiart.net/index.html</link>
+  </item>
+  <item>
+    <title>My Stack</title>
+    <link>https://askiiart.net/stack.html</link>
+  </item>
+  <item>
+    <title>Wishlist</title>
+    <link>https://askiiart.net/wishlist.html</link>
+  </item>
+  <item>
+    <title>Resume</title>
+    <link>https://askiiart.net/resume.html</link>
+  </item>
+  <item>
+    <title>Using JSON with docker compose</title>
+    <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
+  </item>
+
+</channel>
+</rss>
