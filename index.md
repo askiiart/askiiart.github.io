@@ -1,16 +1,12 @@
 # askiiart's site
 
-I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci and Coding Club](https://codeberg.org/TCCD-CompSci-and-Coding-Club/). This is my site.
-
-**[See my resume here!](/resume.html)**
+I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci and Coding Club](https://codeberg.org/TCCD-CompSci-and-Coding-Club/). I do stuff sometimes. This is my site.
 
 ## Personal links
 
 - <a href="https://git.askiiart.net/askiiart">Gitea</a> (my main git thing)
 - <a href="https://github.com/askiiart">GitHub</a>
 - <a href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
-- <a rel="me" href="https://tech.lgbt/@askiiart">Mastodon</a>
-- [Hacker News](https://news.ycombinator.com/user?id=askiiart)
 - Discord: [askiiart](https://discord.com/users/552658564368302092)
 - Email: <a href="mailto:mail@askiiart.net">mail@askiiart.net</a>
 
@@ -32,7 +28,7 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
 - [Status](https://status.askiiart.net/)
   - The status page for all the publicly accessible services on my site.
 - [Bibliogram](https://bibliogram.askiiart.net/applysettings/3bb4944d6d346268ae9bd84f42bc9a51)
-  - An alternative frontend to Instagram (currently broken).
+  - An alternative frontend to Instagram
 
 ## Pages
 
@@ -53,8 +49,6 @@ I'm a hobby programmer and co-founder and vice president of the [TCCD CompSci an
   - A fantastic looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
 
 ## Other/Meta
-
-If you like what you see here, a donation would be nice.
 
 [//]: # (For CSS for wrapping even if cutting off the word, see /style.css)
 

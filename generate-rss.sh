@@ -15,5 +15,3 @@ find . -name "*.html" | while read -r item; do
     printf "\n  <item>\n    <title>${TITLE}</title>\n    <link>https://askiiart.net/${item}.html</link>\n  </item>" >>feed.xml
 done
 printf "\n\n</channel>\n</rss>" >>feed.xml
-
-find . \( ! -regex './md2html.sh' \) -type f | xargs sed -i 's/language-/language-/g'

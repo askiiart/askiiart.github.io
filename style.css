@@ -62,3 +62,7 @@ wrap {
                 max-width: none
         }
 }
+
+footer {
+        text-align: center;
+}

@@ -25,19 +25,18 @@
         <li>UPS: CyberPower CP1500PFCLCD</li>
         <li>Case: Some obscure thing from Cybertron (now CLX
         Gaming)</li>
-        <li>GPU: Integrated Intel UHD 750</li>
+        <li>iGPU: Intel UHD 750</li>
         </ul>
         <h2 id="software">Software</h2>
         <ul>
-        <li>OS: Unraid 6.11.5</li>
-        <li>Docker installed natively, but I might move it to a Debian
-        VM</li>
+        <li>OS: Debian 12 (Bookworm)</li>
+        <li>Basically everything runs in Docker, may move to
+        Podman.</li>
         <li>Storage: 3x 4TB, 1x 8TB parity drive, 512GB cache drive,
-        running off a 32GB USB drive
+        boots off 120GB SSD.
         <ul>
-        <li>Equivalent to RAID-5</li>
-        <li>12TB of capacity available</li>
-        <li>Can lose any one drive without losing any data.</li>
+        <li>Using SnapRAID + mergerfs.</li>
+        <li>~12TB of storage usable.</li>
         </ul></li>
         <li><a
         href="https://pcpartpicker.com/user/Cheap_Fleet/saved/pR82kL">PC
@@ -51,8 +50,6 @@
         <ul>
         <li>Script for this <a
         href="https://git.askiiart.net/askiiart/askiiart-net/src/branch/main/md2html.py">here</a></li>
-        <li>pandoc is one of the very few things I don't have in Docker
-        (yet)</li>
         </ul></li>
         <li>Syntax highlighting using <a
         href="https://prismjs.com"><code>prism.js</code></a></li>
@@ -69,11 +66,12 @@
         href="https://github.com/httptoolkit/docker-registry-facade/blob/main/Caddyfile">direct
         link to Caddyfile</a>)</li>
         <li>I'll probably set up a proper self-hosted registry later,
-        but I haven't gotten to it yet.</li>
+        but I haven't gotten to it yet. And I've only got 2.5 MBps up,
+        so that can probably wait until Docker does something dumb.</li>
         </ul>
         <script src="/prism.js"></script>
     </body>
     <footer>
-        <p>To view this page in markdown, replace the <code>.html</code> in the URL with <code>.md</code>. If this is the root page (askiiart.net), get the markdown version of it at <a href="/index.md">index.md</a>. Source code <a href="https://github.com/askiiart/askiiart.github.io">here</a> and <a href="https://git.askiiart.net/askiiart/askiiart-net">here</a>.</p>
+        <p><a href="https://github.com/askiiart/askiiart.github.io">code</a> (<a href="https://git.askiiart.net/askiiart/askiiart-net">mirror</a>)&emsp;<a href="https://askiiart.net/feed.xml">rss</a></p>
     </footer>
 </html>
