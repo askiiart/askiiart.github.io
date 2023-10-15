@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>askiiart.net blog</title>
+  <description>The feed for askiiart.net but just the blog, I guess</description>
+  <link>https://askiiart.net/blog/</link>
+  <lastBuildDate>Sun, 15 Oct 2023 17:38:30 +0000</lastBuildDate>
+  <item>
+    <title>Marlin Boot Animations</title>
+    <link>https://askiiart.net/til/marlin-boot-animations.html</link>
+  </item>
+
+</channel>
+</rss>
