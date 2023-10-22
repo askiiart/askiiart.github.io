@@ -1,1 +1,8 @@
-{ "m.server": "matrix.askiiart.net:443" }
+{
+    "m.homeserver": {
+        "base_url": "https://matrix.askiiart.net"
+    },
+    "org.matrix.msc3575.proxy": {
+        "url": "https://syncv3.example.com"
+    }
+}
