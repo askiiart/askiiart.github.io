@@ -1,6 +1,3 @@
 {
-    "m.server": "matrix.askiiart.net:443",
-    "org.matrix.msc3575.proxy": {
-        "url": "https://sliding.askiiart.net"
-    }
+    "m.server": "matrix.askiiart.net:443"
 }
