@@ -5,26 +5,22 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Sun, 15 Oct 2023 17:38:30 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 07 Nov 2023 14:26:56 +0000</lastBuildDate>
+  <item>
+    <title>Marlin Boot Animations</title>
+    <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
+  </item>
   <item>
     <title>My Stack</title>
     <link>https://askiiart.net/stack.html</link>
-  </item>
-  <item>
-    <title>Using JSON with docker compose</title>
-    <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
   </item>
   <item>
     <title>Akkoma in Docker</title>
     <link>https://askiiart.net/til/akkoma-in-docker.html</link>
   </item>
   <item>
-    <title>askiiart's site</title>
-    <link>https://askiiart.net/index.html</link>
-  </item>
-  <item>
-    <title>Marlin Boot Animations</title>
-    <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
+    <title>Using JSON with docker compose</title>
+    <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
   </item>
 
 </channel>

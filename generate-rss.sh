@@ -6,7 +6,7 @@
 printf "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<rss version=\"2.0\">\n\n<channel>\n  <title>askiiart.net</title>\n  <description>The feed for askiiart.net, I guess</description>\n  <link>https://askiiart.net</link>\n  <lastBuildDate>$(TZ='UTC' date --rfc-2822)</lastBuildDate>" >feed.xml
 find . -name "*.html" | while read -r item; do
     # Skip template.html, wishlist.html, resume.html, and portfolio.html
-    if [[ ${item} == "./template.html" || ${item} == "./wishlist.html" || ${item} == "./resume.html" || ${item} == "./portfolio.html" ]]; then
+    if [[ ${item} == "./index.html" || ${item} == "./template.html" || ${item} == "./wishlist.html" || ${item} == "./resume.html" || ${item} == "./portfolio.html" ]]; then
         continue
     fi
     item="${item%.*}"
