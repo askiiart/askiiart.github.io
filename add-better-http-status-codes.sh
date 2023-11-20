@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
+rm -rf error/
 git clone https://git.askiiart.net/askiiart/http-status-codes.git
 cp -r http-status-codes/pages/ .
 mv pages/ error/
 cp http-status-codes/you.gif assets/
-cp http-status-codes/boykisser.jpg assets/
+cp http-status-codes/boykisser.png assets/
 rm -rf http-status-codes/
-find error/ -type f | xargs sed -i 's/img src=\\//img src=\https:\/\/askiiart.net\/error\//g'
+find error/ -type f | xargs sed -i 's/img src=\//img src=\/assets\//g'
