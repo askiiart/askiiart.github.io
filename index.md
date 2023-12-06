@@ -4,11 +4,11 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 
 ## Personal links
 
-- <a href="https://git.askiiart.net/askiiart">Gitea</a> (my main git thing)
-- <a href="https://github.com/askiiart">GitHub</a>
-- <a href="https://codeberg.org/askiiart">Codeberg</a> (rarely used, aside from club stuff)
+- Self-hosted git thing: [git.askiiart.net/askiiart](https://git.askiiart.net/askiiart) (my main git thing)
+- GitHub: [askiiart](https://github.com/askiiart) (most stuff is mirrored here)
+- Codeberg: [Codeberg](https://codeberg.org/askiiart) (only used for club stuff)
 - Discord: [askiiart](https://discord.com/users/552658564368302092)
-- Email: <a href="mailto:mail@askiiart.net">mail@askiiart.net</a>
+- Email: [dev@askiiart.net](mailto:dev@askiiart.net)
 
 ## Site Links
 
@@ -35,6 +35,7 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 - This page ([markdown](/index.md))
 - Blog
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation. ([markdown](/blog/marlin-boot-animations.md))
+  - [300](/blog/300.html) - Figuring out 300 Multiple Choices ([markdown](/blog/300.md))
 - TIL
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
@@ -46,7 +47,7 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 - [StreetPass for Mastodon](https://streetpass.social/)
   - Basically Nintendo StreetPass, but for Mastodon
 - [Best Motherf**king Website](https://bestmotherfucking.website/) (sorry for the harsh language)
-  - A fantastic looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
+  - A fantastic-looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
 
 ## Other/Meta
 
