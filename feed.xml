@@ -5,7 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Wed, 06 Dec 2023 18:45:52 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 06 Dec 2023 17:42:13 +0000</lastBuildDate>
   <item>
     <title>Marlin Boot Animations</title>
     <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
@@ -13,10 +13,6 @@
   <item>
     <title>300</title>
     <link>https://askiiart.net/blog/300.html</link>
-  </item>
-  <item>
-    <title>300 Addendum</title>
-    <link>https://askiiart.net/blog/300-link-addendum.html</link>
   </item>
   <item>
     <title>Akkoma in Docker</title>
