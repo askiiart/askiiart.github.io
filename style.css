@@ -1,3 +1,21 @@
+code {
+        background: #121212;
+        font: 1.0em/1.35 'Nimbus Mono PS', 'Liberation Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Lucida Console', monospace;
+        padding: 0.2em;
+        padding-top: 0.4em;
+        border-radius: .3em;
+}
+
+pre {
+
+        background: #121212;
+        font-size: 1.5em/1.35;
+        padding: 1em;
+        margin: .5em 0;
+        overflow: auto;
+        border-radius: .3em;
+}
+
 body {
         color: #dadada;
         background: #202020;
@@ -21,15 +39,6 @@ h1,
 h2,
 h3 {
         line-height: 1.2
-}
-
-code {
-        background: #121212
-}
-
-pre {
-
-        background: #121212
 }
 
 wrap {
@@ -65,4 +74,10 @@ wrap {
 
 footer {
         text-align: center;
+}
+
+blockquote {
+        border-left: 3px solid #59997a;
+        padding-left: 1em;
+        margin-left: 0.5;
 }

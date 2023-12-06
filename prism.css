@@ -1,11 +1,11 @@
 /* PrismJS 1.29.0
-https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+arduino+bash+c+csharp+cpp+css-extras+csv+docker+excel-formula+git+java+javadoc+javadoclike+javastacktrace+json+json5+log+markdown+nix+powershell+python+rust+vim+wiki&plugins=line-numbers+toolbar+copy-to-clipboard */
+https://prismjs.com/download.html#themes=prism-okaidia&languages=markup+css+clike+javascript+arduino+bash+c+csharp+cpp+css-extras+csv+docker+excel-formula+git+java+javadoc+javadoclike+javastacktrace+json+json5+log+markdown+nginx+nix+python+rust+vim+wiki&plugins=line-numbers+toolbar+copy-to-clipboard */
 code[class*=language-],
 pre[class*=language-] {
     color: #f8f8f2;
     background: 0 0;
     text-shadow: 0 1px rgba(0, 0, 0, .3);
-    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-family: 'Nimbus Mono PS', 'Liberation Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Lucida Console', monospace;
     font-size: 1em;
     text-align: left;
     white-space: pre;
