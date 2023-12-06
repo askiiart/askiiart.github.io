@@ -2,7 +2,7 @@
 
 1. [Anker USB-C Hub](https://www.amazon.com/dp/B08C9HZ5YT)
 2. [Samsung 870 Evo 1TB SSD](https://www.amazon.com/dp/B08QBJ2YMG)
-3. [Oneplus 10T 8G/128G](https://www.amazon.com/dp/B0B831NMPG)
+3. [Google Pixel 6](https://www.amazon.com/dp/B09HJZPFDD)
 4. [Shadows of Doubt](https://store.steampowered.com/app/986130)
 5. [Elden Ring](https://store.steampowered.com/app/1245620)
 6. [Stray Gods: The Roleplaying Musical](https://store.steampowered.com/app/1920780)
