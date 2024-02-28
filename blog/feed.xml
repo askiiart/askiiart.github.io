@@ -5,14 +5,14 @@
   <title>askiiart.net blog</title>
   <description>The feed for askiiart.net but just the blog, I guess</description>
   <link>https://askiiart.net/blog/</link>
-  <lastBuildDate>Wed, 06 Dec 2023 17:42:13 +0000</lastBuildDate>
-  <item>
-    <title>Marlin Boot Animations</title>
-    <link>https://askiiart.net/til/marlin-boot-animations.html</link>
-  </item>
+  <lastBuildDate>Wed, 28 Feb 2024 19:24:43 +0000</lastBuildDate>
   <item>
     <title>300</title>
     <link>https://askiiart.net/til/300.html</link>
+  </item>
+  <item>
+    <title>Marlin Boot Animations</title>
+    <link>https://askiiart.net/til/marlin-boot-animations.html</link>
   </item>
 
 </channel>

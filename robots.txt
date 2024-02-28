@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /wishlist.md
-Disallow: /wishlist.html
+Disallow: /
+Allow: /til/
+Allow: /blog/
