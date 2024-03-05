@@ -5,7 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Wed, 28 Feb 2024 19:24:43 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 05 Mar 2024 21:57:23 +0000</lastBuildDate>
   <item>
     <title>300</title>
     <link>https://askiiart.net/blog/300.html</link>
@@ -15,8 +15,8 @@
     <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
   </item>
   <item>
-    <title>My Stack</title>
-    <link>https://askiiart.net/stack.html</link>
+    <title>Foooooonts!</title>
+    <link>https://askiiart.net/blog/foooooonts.html</link>
   </item>
   <item>
     <title>Akkoma in Docker</title>
@@ -25,6 +25,10 @@
   <item>
     <title>Using JSON with docker compose</title>
     <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
+  </item>
+  <item>
+    <title>My Stack</title>
+    <link>https://askiiart.net/stack.html</link>
   </item>
 
 </channel>

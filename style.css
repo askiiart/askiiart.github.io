@@ -1,19 +1,13 @@
-code {
-        background: #121212;
-        font: 1.0em/1.35 'Nimbus Mono PS', 'Liberation Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', 'Lucida Console', monospace;
-        padding: 0.2em;
-        padding-top: 0.4em;
-        border-radius: .3em;
+@font-face {
+        /* from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode */
+        font-family: "FiraCode";
+        src: url('/assets/FiraCodeNerdFontMono-Regular.woff2');
 }
 
-pre {
-
-        background: #121212;
-        font-size: 1.5em/1.35;
-        padding: 1em;
-        margin: .5em 0;
-        overflow: auto;
-        border-radius: .3em;
+@font-face {
+        /* from Google Fonts, under the Open Font License */
+        font-family: "Atkinson Hyperlegible";
+        src: url('/assets/AtkinsonHyperlegible-Regular.woff2');
 }
 
 body {
@@ -22,7 +16,7 @@ body {
         margin: 1em auto;
         max-width: 90vw;
         padding: 0 .62em;
-        font: 1.0em/1.35 sans-serif
+        font: 1.0em/1.35 'Atkinson Hyperlegible', sans-serif;
 }
 
 a:link,
@@ -38,7 +32,8 @@ a:visited:hover {
 h1,
 h2,
 h3 {
-        line-height: 1.2
+        line-height: 1.2;
+        font: 'Atkinson Hyperlegible', sans-serif;
 }
 
 wrap {

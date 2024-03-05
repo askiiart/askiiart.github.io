@@ -6,7 +6,7 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 
 - Self-hosted git thing: [git.askiiart.net/askiiart](https://git.askiiart.net/askiiart) (my main git thing)
 - GitHub: [askiiart](https://github.com/askiiart) (most stuff is mirrored here)
-- Codeberg: [Codeberg](https://codeberg.org/askiiart) (only used for club stuff)
+- Codeberg: [askiiart](https://codeberg.org/askiiart) (only used for club stuff)
 - Discord: [askiiart](https://discord.com/users/552658564368302092)
 - Email: [dev@askiiart.net](mailto:dev@askiiart.net)
 
