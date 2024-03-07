@@ -18,7 +18,6 @@
 @font-face {
         font-family: "Atkinson Hyperlegible Italic";
         src: local('Atkinson Hyperlegible Italic'), url('/assets/AtkinsonHyperlegible-Italic.woff2');
-        src: url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
 }
 
 @font-face {
@@ -32,6 +31,9 @@ body {
         margin: 1em auto;
         max-width: 90vw;
         padding: 0 .62em;
+}
+
+p {
         font: 18px/1.35 'Atkinson Hyperlegible', sans-serif;
 }
 
