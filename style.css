@@ -22,7 +22,7 @@
 
 @font-face {
         font-family: "Atkinson Hyperlegible Bold Italic";
-        src: local('Atkinson Hyperlegible Bold Italic') url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
+        src: local('Atkinson Hyperlegible Bold Italic'), url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
 }
 
 body {
@@ -33,7 +33,8 @@ body {
         padding: 0 .62em;
 }
 
-p {
+p,
+footer {
         font: 18px/1.35 'Atkinson Hyperlegible', sans-serif;
 }
 
@@ -48,16 +49,16 @@ a:visited:hover {
 }
 
 h1 {
-        font: 'Atkinson Hyperlegible Bold', sans-serif;
-        line-height: 1.2;
-        font-size: 36px;
+        font: 36px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 h2,
 h3 {
-        font: 'Atkinson Hyperlegible Bold', sans-serif;
-        line-height: 1.2;
-        font-size: 24px;
+        font: 24px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
+}
+
+h4 {
+        font: 20px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 code {
