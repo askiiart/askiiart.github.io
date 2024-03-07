@@ -14,7 +14,7 @@
         <hr />
         <p>Since I have my code 1) <a
         href="https://git.askiiart.net/askiiart/askiiart-net">on my
-        self-hosted Gitea (soon Forgejo) instance</a>, and 2) <a
+        Gitea (now Forgejo) instance</a>, and 2) <a
         href="https://github.com/askiiart/askiiart.github.io">mirrored</a>
         on GitHub, I didn't just want to set up a simple <a
         href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/308">308
@@ -60,7 +60,7 @@
         <p>Well, that's boring. Guess I'll do that then.</p>
         <pre class="language-nginx"><code>    location  /.git {
         add_header Location &quot;https://git.askiiart.net/askiiart/askiiart-net&quot;;
-        return 300 &#39;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;a href=&quot;https://git.askiiart.net/askiiart/askiiart-net&quot;&gt;Self-hosted&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/askiiart/askiiart-net&quot;&gt;GitHub&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&#39;;
+        return 300 &#39;&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;/head&gt;&lt;body&gt;&lt;a href=&quot;https://git.askiiart.net/askiiart/askiiart-net&quot;&gt;Self-hosted&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://github.com/askiiart/askiiart.github.io&quot;&gt;GitHub&lt;/a&gt;&lt;/body&gt;&lt;/html&gt;&#39;;
     }</code></pre>
         <h2 id="nginx-is-hard">nginx is hard</h2>
         <p>That config looks fine, right? It just sets the
@@ -126,8 +126,9 @@
         <h4 id="browser-specific-info">browser-specific info</h4>
         <p>Elsewhere in the Quora thread it says, in short, that Firefox
         and Chrome just displays the HTML, and Safari will follow the
-        <code>Location</code> header. [<a
-        href="#ok-but-actually-how">Back</a>]</p>
+        <code>Location</code> header. Edit: Apparently I forgot to link
+        the Quora thread, so I've got no idea what I'm referencing here.
+        Sorry! [<a href="#ok-but-actually-how">Back</a>]</p>
         <script src="/prism.js"></script>
     </body>
     <footer>
