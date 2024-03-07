@@ -79,7 +79,7 @@
 <span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ex">Connection:</span> keep-alive</span></code></pre></div>
         <p>There's no Location header there! And the browsers are
         probably refusing to show it because of the wrong
-        <code>Content-Type</code>—and no, adding a header with
+        <code>Content-Type</code> – and no, adding a header with
         <code>add_header</code> doesn't work for that one, either.</p>
         <p>Turns out in order to be able to use <code>add_header</code>,
         you first need to set <code>default_type</code> (which sets a

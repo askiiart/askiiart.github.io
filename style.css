@@ -58,6 +58,12 @@ h3 {
         font-size: 24px;
 }
 
+code {
+        background: #0e0f0f;
+        border-radius: .2em;
+        padding: .125em;
+}
+
 wrap {
         word-wrap: break-word
 }
