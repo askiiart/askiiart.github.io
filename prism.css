@@ -31,7 +31,7 @@ pre[class*=language-] {
 
 :not(pre)>code[class*=language-],
 pre[class*=language-] {
-    background: #121212
+    background: #0e0f0f
 }
 
 :not(pre)>code[class*=language-] {
