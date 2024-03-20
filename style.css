@@ -33,6 +33,10 @@ body {
         padding: 0 .62em;
 }
 
+li {
+        font-family: 'Atkinson Hyperlegible';
+}
+
 p,
 footer {
         font: 18px/1.35 'Atkinson Hyperlegible', sans-serif;
