@@ -8,7 +8,6 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 - GitHub: [askiiart](https://github.com/askiiart) (most stuff is mirrored here)
 - Codeberg: [askiiart](https://codeberg.org/askiiart) (only used for club stuff)
 - Discord: [askiiart](https://discord.com/users/552658564368302092)
-- Email: [dev@askiiart.net](mailto:dev@askiiart.net)
 
 ## Site Links
 
@@ -40,16 +39,9 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
 
-## Cool Stuff
-
-- [StreetPass for Mastodon](https://streetpass.social/)
-  - Basically Nintendo StreetPass, but for Mastodon
-- [Best Motherf**king Website](https://bestmotherfucking.website/) (sorry for the harsh language)
-  - A fantastic-looking satirical, but rude website, mocking things such as "5MB background video\[s\] of hipsters poking at their iPhones"
-
 ## Other/Meta
 
 [//]: # (For CSS for wrapping even if cutting off the word, see /style.css)
 
-- [GPG public key](/pubkey.asc) (fingerprint: `02EF A1CE 3C3E 4AAD 7A86  3AB8 ED24 985C A884 CD61`)
+- [PGP public key](/pubkey.asc) (fingerprint: ~~`02EF A1CE 3C3E 4AAD 7A86  3AB8 ED24 985C A884 CD61`~~ [moved to `CFCF 6723 A8ED 791C 5FD2  5CB5 8589 69DC CC2E 792D`](/blog/new-pgp-key.html))
 - <wrap>Monero: [8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w](monero:8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w&tx_description=donation_from_site)</wrap>
