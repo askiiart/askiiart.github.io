@@ -8,7 +8,7 @@ This commit will be signed and pushed with the old key, `0xED24985CA884CD61`, th
 
 ---
 
-There's also now a [/data/](/data/) directory, which as of the time of writing, just contains [my old key](/data/old-pubkey-02EFA1CE3C3E4AAD7A863AB8ED24985CA884CD61.asc), the public key of `0x858969DCCC2E792D`'s *master key only* signed with my old key, and [a detached signature](/data/new-pgp-key.asc) for the markdown version of this file signed with `0xED24985CA884CD61` saying I'm moving to `0x858969DCCC2E792D`.
+There's also now a [/data/](/data/) directory, which as of the time of writing, just contains [my old key](/data/old-pubkey-02EFA1CE3C3E4AAD7A863AB8ED24985CA884CD61.asc) and [a detached signature](/data/new-pgp-key.asc) for the markdown version of this file signed with `0xED24985CA884CD61` saying I'm moving to `0x858969DCCC2E792D`.
 
 **My current PGP public key will always be at [/pubkey.asc](/pubkey.asc).**
 
