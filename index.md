@@ -36,9 +36,11 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation.
   - [300](/blog/300.html) - Figuring out 300 Multiple Choices
   - [New PGP key, and new directory](/blog/new-pgp-key.html) - I switch to a new PGP key
+  - [Foooooonts!](/blog/foooooonts.html) - There's fonts now! and uh yeah, fonts.
 - [TIL](/til/)
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
+  - [Akkoma in Docker](/til/akkoma-in-docker.html) - uh I figured out how to do Akkoma in Docker cuz it doesn't quite match the docs sometimes.
 
 ## Other/Meta
 
