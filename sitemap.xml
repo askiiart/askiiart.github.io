@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url><loc>https://tccdcode.club/</loc></url>
-<url><loc>https://tccdcode.club/calendar.html</loc></url>
-<url><loc>https://tccdcode.club/flyer.html</loc></url>
-<url><loc>https://tccdcode.club/index.html</loc></url>
-<url><loc>https://tccdcode.club/phone-directory.html</loc></url>
-<url><loc>https://tccdcode.club/profiles/</loc></url>
-<url><loc>https://tccdcode.club/profiles/event-director.html</loc></url>
-<url><loc>https://tccdcode.club/profiles/president.html</loc></url>
-<url><loc>https://tccdcode.club/profiles/senate.html</loc></url>
-<url><loc>https://tccdcode.club/profiles/social-director.html</loc></url>
-<url><loc>https://tccdcode.club/profiles/vice-president.html</loc></url>
-<url><loc>https://tccdcode.club/resources.html</loc></url>
+<url><loc>https://askiiart.net/blog/</loc></url>
+<url><loc>https://askiiart.net/blog/300.html</loc></url>
+<url><loc>https://askiiart.net/blog/foooooonts.html</loc></url>
+<url><loc>https://askiiart.net/blog/marlin-boot-animations.html</loc></url>
+<url><loc>https://askiiart.net/blog/new-pgp-key.html</loc></url>
+<url><loc>https://askiiart.net/repos/</loc></url>
+<url><loc>https://askiiart.net/til/</loc></url>
+<url><loc>https://askiiart.net/til/akkoma-in-docker.html</loc></url>
+<url><loc>https://askiiart.net/til/using-json-with-docker-compose.html</loc></url>
 </urlset>

@@ -4,7 +4,7 @@
 
 # Taken from here and modified: https://www.lostsaloon.com/technology/how-to-create-an-xml-sitemap-using-wget-and-shell-script/
 # (https://web.archive.org/web/20231202193251/https://www.lostsaloon.com/technology/how-to-create-an-xml-sitemap-using-wget-and-shell-script/) (https://archive.ph/qtdMP)
-sitedomain=https://tccdcode.club/
+sitedomain=https://askiiart.net/
 dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 wget --spider --recursive --level=inf --output-file=$dir/linklist.txt $sitedomain
 # greps for the relevant lines, gets the URLs, gets only the lines for $sitedomain, and sorts them
