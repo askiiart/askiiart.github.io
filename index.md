@@ -37,6 +37,7 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
   - [300](/blog/300.html) - Figuring out 300 Multiple Choices
   - [New PGP key, and new directory](/blog/new-pgp-key.html) - I switch to a new PGP key
   - [Foooooonts!](/blog/foooooonts.html) - There's fonts now! and uh yeah, fonts.
+  - [Another new PGP key!](/blog/another-new-pgp-key.html) - I lost the master key again oops
 - [TIL](/til/)
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
@@ -46,5 +47,5 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
 
 [//]: # (For CSS for wrapping even if cutting off the word, see /style.css)
 
-- [PGP public key](/pubkey.asc) (fingerprint: ~~`02EF A1CE 3C3E 4AAD 7A86  3AB8 ED24 985C A884 CD61`~~ [moved to `CFCF 6723 A8ED 791C 5FD2  5CB5 8589 69DC CC2E 792D`](/blog/new-pgp-key.html))
+- [PGP public key](/pubkey.asc) ([`4BA4 1BD5 8C08 8A98 622B  9A1A 7939 D59E C80C 3C21`](/blog/another-new-pgp-key.html))
 - <wrap>Monero: [8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w](monero:8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w&tx_description=donation_from_site)</wrap>

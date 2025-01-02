@@ -5,7 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Tue, 13 Aug 2024 16:30:59 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 02 Jan 2025 03:17:03 +0000</lastBuildDate>
   <item>
     <title>300</title>
     <link>https://askiiart.net/blog/300.html</link>
@@ -21,6 +21,10 @@
   <item>
     <title>New PGP key, and new directory</title>
     <link>https://askiiart.net/blog/new-pgp-key.html</link>
+  </item>
+  <item>
+    <title>Another new PGP key</title>
+    <link>https://askiiart.net/blog/another-new-pgp-key.html</link>
   </item>
   <item>
     <title>Akkoma in Docker</title>
