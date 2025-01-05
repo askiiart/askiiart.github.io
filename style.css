@@ -1,28 +1,28 @@
 @font-face {
         /* from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode */
         font-family: "FiraCode";
-        src: url('/assets/FiraCodeNerdFontMono-Regular.woff2');
+        src: 'FiraCode', url('/assets/FiraCodeNerdFontMono-Regular.woff2');
 }
 
 /* from Google Fonts, under the Open Font License */
 @font-face {
         font-family: "Atkinson Hyperlegible";
-        src: local('Atkinson Hyperlegible'), url('/assets/AtkinsonHyperlegible-Regular.woff2');
+        src: 'Atkinson Hyperlegible', url('/assets/AtkinsonHyperlegible-Regular.woff2');
 }
 
 @font-face {
         font-family: "Atkinson Hyperlegible Bold";
-        src: local('Atkinson Hyperlegible Bold'), url('/assets/AtkinsonHyperlegible-Bold.woff2');
+        src: 'Atkinson Hyperlegible Bold', url('/assets/AtkinsonHyperlegible-Bold.woff2');
 }
 
 @font-face {
         font-family: "Atkinson Hyperlegible Italic";
-        src: local('Atkinson Hyperlegible Italic'), url('/assets/AtkinsonHyperlegible-Italic.woff2');
+        src: 'Atkinson Hyperlegible Italic', url('/assets/AtkinsonHyperlegible-Italic.woff2');
 }
 
 @font-face {
         font-family: "Atkinson Hyperlegible Bold Italic";
-        src: local('Atkinson Hyperlegible Bold Italic'), url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
+        src: 'Atkinson Hyperlegible Bold Italic', url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
 }
 
 body {
