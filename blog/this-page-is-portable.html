@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>This page is portable</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="this-page-is-portable">This page is portable</h1>
+        <p>This page, even with its images, fonts, and javascript, is
+        completely portable, and will work offline with no other
+        files.</p>
+        <hr />
+        <p>This is essentially a showcase and writeup about <a
+        href="https://git.askiiart.net/askiiart/one-webpage-under-god">One
+        Webpage, Under God</a>, a program I made to make a page
+        completely portable and independent of any other files. It
+        doesn't handle everything, but does perfectly on a simple static
+        site like my own, with images, fonts, and javascript, it works
+        perfectly.</p>
+        <div class="sourceCode" id="cb1"><pre
+        class="language-rs"><code class="language-rust"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">let</span> hello <span class="op">=</span> <span class="st">&quot;hiiiiiiiiii&quot;</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co">// Check out this fancy code block without using any other files</span></span></code></pre></div>
+        <figure>
+        <img src="/assets/askiiart.avif"
+        title="I can even have this picture of a turtle in here" alt="I can even have this picture of a turtle in here" />
+        <figcaption aria-hidden="true">I can even have this picture of a
+        turtle in here</figcaption>
+        </figure>
+        <h2 id="okay-but-how">Okay but how</h2>
+        <p>Really, this page should be titled "All hail the <a
+        href="https://en.wikipedia.org/wiki/Data_URI_scheme">Data URI
+        Scheme</a> and whoever came up with it, that's how this entire
+        program works. If you're unaware, a data URI looks like
+        this:</p>
+        <div class="sourceCode" id="cb2"><pre
+        class="language-txt"><code class="language-default"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA</span></code></pre></div>
+        <p>To break this down:</p>
+        <ul>
+        <li><code>data:</code> This is a data URI</li>
+        <li><code>image/png</code>: The <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTTP/MIME_types/Common_types">MIME
+        type</a> of the data</li>
+        <li><code>;base64</code> Indicates that this is encoded in
+        base64 (optional, see <a
+        href="https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/data">MDN
+        docs</a>)</li>
+        <li><code>iVBORw0KGgoAAAANSUhEUgAAAA</code>: base64-encoded
+        data</li>
+        </ul>
+        <p>If it's text data, then it can use percent-encoding instead,
+        though I couldn't get this to work, so I just encoded everything
+        in base64 instead.</p>
+        <h2 id="fonts">Fonts</h2>
+        <p>The rest of all this is really simple - we just replace the
+        link to the asset with a data URI. Fonts, however, are more
+        complicated. They're linked in the CSS, not the HTML, which
+        leads to <em>this</em> mess - fonts encoded in base64, inside of
+        CSS which is then itself encoded in base64.</p>
+        <div class="sourceCode" id="cb3"><pre
+        class="language-css"><code class="language-css"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">@font-face</span> {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>        <span class="co">/* from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode */</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="kw">font-family</span><span class="ch">:</span> <span class="st">&quot;FiraCode&quot;</span><span class="op">;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        <span class="kw">src</span><span class="ch">:</span> <span class="st">&#39;FiraCode&#39;</span><span class="op">,</span> <span class="fu">url(</span><span class="st">&#39;data:font/woff2;base64,d09GMgABAA...76Ufr9TLXi4DgAA&#39;</span><span class="fu">)</span><span class="op">;</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+        <p>This also led to me being reminded how huge my fonts are;
+        because of them my site's homepage comes out to nearly 2 MiB
+        even without <code>prism.js</code>, which contains a duplicate
+        FiraCode Nerd Font, which is of course also hardcoded in.</p>
+        <hr />
+        <p>One last thing: Relative links are very <em>not</em> portable
+        of course, so I just tacked on this bit to the end to fix
+        that</p>
+        <div class="sourceCode" id="cb4"><pre
+        class="language-py"><code class="language-python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>links <span class="op">=</span> soup.find_all(<span class="st">&#39;link&#39;</span>)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> item <span class="kw">in</span> links:</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="st">&#39;stylesheet&#39;</span> <span class="kw">not</span> <span class="kw">in</span> item.attrs[<span class="st">&#39;rel&#39;</span>] <span class="kw">and</span> <span class="st">&#39;icon&#39;</span> <span class="kw">not</span> <span class="kw">in</span> item.attrs[<span class="st">&#39;rel&#39;</span>]:</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>        item.attrs[<span class="st">&#39;href&#39;</span>] <span class="op">=</span> absolute_url(item.attrs[<span class="st">&#39;href&#39;</span>], domain_thing)</span></code></pre></div>
+        <p>Oh also, this page is actually <em>not</em> portable - aside
+        from the johnvertisement iframe at the bottom, I didn't make it
+        portable regardless because it's 3+ MiB, and I didn't want to
+        put that kind of load on my internet connection for no reason.
+        If it weren't for my upload speed suddenly sexdecupling (16x)
+        for some reason, it would take more than a second to load. The
+        <em>actually portable</em> version is <a
+        href="/blog/this-page-is-actually-portable.html">here</a></p>
+        <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>
