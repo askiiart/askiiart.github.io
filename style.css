@@ -1,110 +1,110 @@
 @font-face {
-        /* from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode */
-        font-family: "FiraCode";
-        src: 'FiraCode', url('/assets/FiraCodeNerdFontMono-Regular.woff2');
+    /* from https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode */
+    font-family: "FiraCode";
+    src: 'FiraCode', url('/assets/FiraCodeNerdFontMono-Regular.woff2');
 }
 
 /* from Google Fonts, under the Open Font License */
 @font-face {
-        font-family: "Atkinson Hyperlegible";
-        src: 'Atkinson Hyperlegible', url('/assets/AtkinsonHyperlegible-Regular.woff2');
+    font-family: "Atkinson Hyperlegible";
+    src: 'Atkinson Hyperlegible', url('/assets/AtkinsonHyperlegible-Regular.woff2');
 }
 
 @font-face {
-        font-family: "Atkinson Hyperlegible Bold";
-        src: 'Atkinson Hyperlegible Bold', url('/assets/AtkinsonHyperlegible-Bold.woff2');
+    font-family: "Atkinson Hyperlegible Bold";
+    src: 'Atkinson Hyperlegible Bold', url('/assets/AtkinsonHyperlegible-Bold.woff2');
 }
 
 @font-face {
-        font-family: "Atkinson Hyperlegible Italic";
-        src: 'Atkinson Hyperlegible Italic', url('/assets/AtkinsonHyperlegible-Italic.woff2');
+    font-family: "Atkinson Hyperlegible Italic";
+    src: 'Atkinson Hyperlegible Italic', url('/assets/AtkinsonHyperlegible-Italic.woff2');
 }
 
 @font-face {
-        font-family: "Atkinson Hyperlegible Bold Italic";
-        src: 'Atkinson Hyperlegible Bold Italic', url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
+    font-family: "Atkinson Hyperlegible Bold Italic";
+    src: 'Atkinson Hyperlegible Bold Italic', url('/assets/AtkinsonHyperlegible-BoldItalic.woff2');
 }
 
 body {
-        color: #dadada;
-        background: #181a1b;
-        margin: 1em auto;
-        max-width: 90vw;
-        padding: 0 .62em;
+    color: #dadada;
+    background: #181a1b;
+    margin: 1em auto;
+    max-width: 90vw;
+    padding: 0 .62em;
 }
 
 li {
-        font-family: 'Atkinson Hyperlegible';
+    font-family: 'Atkinson Hyperlegible';
 }
 
 p,
 footer {
-        font: 18px/1.35 'Atkinson Hyperlegible', sans-serif;
+    font: 18px/1.35 'Atkinson Hyperlegible', sans-serif;
 }
 
 a:link,
 a:visited {
-        color: #80c47b;
+    color: #80c47b;
 }
 
 a:hover,
 a:visited:hover {
-        color: #6bb794
+    color: #6bb794
 }
 
 h1 {
-        font: 36px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
+    font: 36px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 h2,
 h3 {
-        font: 24px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
+    font: 24px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 h4 {
-        font: 20px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
+    font: 20px/1.2 'Atkinson Hyperlegible Bold', sans-serif;
 }
 
 code {
-        background: #0e0f0f;
-        border-radius: .2em;
-        padding: .125em;
-        padding-left: 0.2em;
-        font-size: 14px;
+    background: #0e0f0f;
+    border-radius: .2em;
+    padding: .125em;
+    padding-left: 0.2em;
+    font-size: 14px;
 }
 
 wrap {
-        word-wrap: break-word
+    word-wrap: break-word
 }
 
 @media (max-device-width: 1200px) {
-        h1 {
-                line-height: 1.2;
-                font-size: 40px;
-        }
+    h1 {
+        line-height: 1.2;
+        font-size: 40px;
+    }
 
-        h2 {
-                line-height: 1.2;
-                font-size: 30px;
-        }
+    h2 {
+        line-height: 1.2;
+        font-size: 30px;
+    }
 
-        body {
-                font-size: 20px;
-        }
+    body {
+        font-size: 20px;
+    }
 }
 
 @media print {
-        body {
-                max-width: none
-        }
+    body {
+        max-width: none
+    }
 }
 
 footer {
-        text-align: center;
+    text-align: center;
 }
 
 blockquote {
-        border-left: 3px solid #59997a;
-        padding-left: 1em;
-        margin-left: 0.5;
+    border-left: 3px solid #59997a;
+    padding-left: 1em;
+    margin-left: 0.5;
 }
