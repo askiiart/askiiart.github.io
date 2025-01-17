@@ -69,6 +69,8 @@ code {
         background: #0e0f0f;
         border-radius: .2em;
         padding: .125em;
+        padding-left: 0.2em;
+        font-size: 14px;
 }
 
 wrap {
