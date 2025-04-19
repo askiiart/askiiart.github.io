@@ -1,0 +1,3 @@
+[submodule "http-status-codes"]
+	path = error
+	url = https://git.askiiart.net/askiiart/http-status-codes
