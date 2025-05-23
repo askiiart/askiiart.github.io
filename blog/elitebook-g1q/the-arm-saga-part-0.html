@@ -35,10 +35,11 @@
         <code>devicetree /casper/dtbs/x1e80100-hp-omnibook-x14.dtb</code>[^1]
         (which I found by just mounting the iso) worked to get it
         booted. However, it would throws a bunch of weird errors and try
-        to netboot, then after going through that, would drop me into a
-        busybox session? So that's definitely some improvement over
-        nothing, and an alternate way to do stuff if needed, but not
-        ideal.</p>
+        to netboot, then after going through all that, and waiting
+        several minutes for the DHCP fail enough times (it has no
+        networking at all), would drop me into a busybox session? So
+        that's definitely some improvement over nothing, and an
+        alternate way to do stuff if needed, but not ideal.</p>
         <p>And I couldn't find a decent way to work this in, but: it
         also behaved a bit strangely, both the keyboard and a USB
         keyboard wouldn't be recognized in Grub ~50% of the time, not
