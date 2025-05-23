@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>My site</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="my-site">My site</h1>
+        <h2 id="site-generation">Site generation</h2>
+        <p>Pages are written as markdown files, then converted to HTML
+        using <code>md2html.sh</code>, which converts them to pandoc and
+        fixes some small bits (with <code>sed</code> and
+        <code>regex-chicanery.py</code>). Then a new RSS feed and
+        sitemap are generated using <code>generate-rss.sh</code> and
+        <code>generate-sitemap.xml</code>.</p>
+        <h2 id="organization">Organization</h2>
+        <ul>
+        <li>Standard blog posts go in <code>/blog/</code></li>
+        <li>Today I learned stuff goes in <code>/til/</code></li>
+        <li>Misc data go in <code>/data/</code></li>
+        <li>Assets (images, videos, etc) go in <code>/assets/</code>,
+        lining up with the organization of the page they go to (e.g.
+        <code>/blog/marlin-boot-animations.{md,html}</code> -&gt;
+        <code>/assets/blog/marlin-boot-animations/</code>)</li>
+        </ul>
+        <h2 id="errors">Errors</h2>
+        <p>Error pages are provided by <a
+        href="https://git.askiiart.net/askiiart/http-status-codes">http-status-codes</a>.</p>
+        <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>

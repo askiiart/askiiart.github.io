@@ -5,10 +5,18 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Tue, 07 Jan 2025 15:30:31 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 May 2025 04:28:17 +0000</lastBuildDate>
+  <item>
+    <title>The ARM saga: part 0</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-0.html</link>
+  </item>
   <item>
     <title>300</title>
     <link>https://askiiart.net/blog/300.html</link>
+  </item>
+  <item>
+    <title>Another new PGP key</title>
+    <link>https://askiiart.net/blog/another-new-pgp-key.html</link>
   </item>
   <item>
     <title>Foooooonts!</title>
@@ -23,10 +31,6 @@
     <link>https://askiiart.net/blog/new-pgp-key.html</link>
   </item>
   <item>
-    <title>Another new PGP key</title>
-    <link>https://askiiart.net/blog/another-new-pgp-key.html</link>
-  </item>
-  <item>
     <title>This page is portable</title>
     <link>https://askiiart.net/blog/this-page-is-portable.html</link>
   </item>
@@ -37,6 +41,10 @@
   <item>
     <title>Using JSON with docker compose</title>
     <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
+  </item>
+  <item>
+    <title>My site</title>
+    <link>https://askiiart.net/README.html</link>
   </item>
   <item>
     <title>My Stack</title>
