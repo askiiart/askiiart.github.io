@@ -32,14 +32,16 @@
         reported <a
         href="https://discourse.ubuntu.com/t/ubuntu-24-10-concept-snapdragon-x-elite/48800/573">here</a>.
         Changing the grub argument from <code>$dtb</code> to
-        <code>devicetree /casper/dtbs/x1e80100-hp-omnibook-x14.dtb</code>[^1]
-        (which I found by just mounting the iso) worked to get it
-        booted. However, it would throws a bunch of weird errors and try
-        to netboot, then after going through all that, and waiting
-        several minutes for the DHCP fail enough times (it has no
-        networking at all), would drop me into a busybox session? So
-        that's definitely some improvement over nothing, and an
-        alternate way to do stuff if needed, but not ideal.</p>
+        <code>devicetree /casper/dtbs/x1e80100-hp-omnibook-x14.dtb</code><a
+        href="#fn1" class="footnote-ref" id="fnref1"
+        role="doc-noteref"><sup>1</sup></a> (which I found by just
+        mounting the iso) worked to get it booted. However, it would
+        throws a bunch of weird errors and try to netboot, then after
+        going through all that, and waiting several minutes for the DHCP
+        fail enough times (it has no networking at all), would drop me
+        into an initramfs busybox session? So that's definitely some
+        improvement over nothing, and an alternate way to do stuff if
+        needed, but not ideal.</p>
         <p>And I couldn't find a decent way to work this in, but: it
         also behaved a bit strangely, both the keyboard and a USB
         keyboard wouldn't be recognized in Grub ~50% of the time, not
@@ -61,9 +63,16 @@
         <p>These <em>will</em> be done out of order, with Fedora iso
         generation coming first, since I've been trying to figure that
         out for years anyways (the docs are amazing /s).</p>
+        <section id="footnotes"
+        class="footnotes footnotes-end-of-document" role="doc-endnotes">
         <hr />
-        <p>[^1] Note that this seems to be mislabeled, as AFAIK both
-        these laptops only have the X1E-78-100, not the X1E-80-100.</p>
+        <ol>
+        <li id="fn1"><p>Note that this seems to be mislabeled, as AFAIK
+        both these laptops only have the X1E-78-100, not the
+        X1E-80-100.<a href="#fnref1" class="footnote-back"
+        role="doc-backlink">↩︎</a></p></li>
+        </ol>
+        </section>
         <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
         <script src="/prism.js"></script>
     </body>

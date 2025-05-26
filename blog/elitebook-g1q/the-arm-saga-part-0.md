@@ -25,6 +25,4 @@ Currently, the plan is as follows:
 
 These *will* be done out of order, with Fedora iso generation coming first, since I've been trying to figure that out for years anyways (the docs are amazing /s).
 
----
-
-[^1] Note that this seems to be mislabeled, as AFAIK both these laptops only have the X1E-78-100, not the X1E-80-100.
+[^1]: Note that this seems to be mislabeled, as AFAIK both these laptops only have the X1E-78-100, not the X1E-80-100.
