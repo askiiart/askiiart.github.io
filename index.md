@@ -40,6 +40,7 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
   - [Another new PGP key!](/blog/another-new-pgp-key.html) - I lost the master key again oops
   - [The ARM/Elitebook G1q Saga](/blog/elitebook-g1q/) - I got an ARM laptop, and it's not in the kernel yet (it's barely supported at all).
     - [Part 0](/blog/elitebook-g1q/the-arm-saga-part-0.html)
+    - [Part 1](/blog/elitebook-g1q/the-arm-saga-part-1.html) - it boots!
 - [TIL](/til/)
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
