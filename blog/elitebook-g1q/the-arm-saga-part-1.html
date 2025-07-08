@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>The ARM saga: part 1</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="the-arm-saga-part-1">The ARM saga: part 1</h1>
+        <p>Progress update and guide</p>
+        <hr />
+        <p>Turns out in the time I was looking away, 1) the Elitebook
+        got added to the mainline kernel (somewhere in the 6.16 release
+        candidates), and 2) Ubuntu released an updated Snapdragon
+        Concept image - and not just that, I managed to find <a
+        href="https://people.canonical.com/~platform/images/ubuntu-concept/">new
+        builds</a>. Unfortunately, the version of Ubuntu I tested
+        doesn't support it yet, but it's a good start.</p>
+        <p>To work around this though, you can just add in the Elitebook
+        device tree manually (I <del>stole</del> borrowed it from the
+        postmarketOS package <code>linux-postmarketos-qcom-sm7635</code>
+        and copied it to the drive), then updated the grub config
+        file:</p>
+        <div class="sourceCode" id="cb1"><pre
+        class="language-txt"><code class="language-default"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>  regexp &quot;HP EliteBook Ultra G1q 14.*&quot; &quot;$system_product_name&quot;</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  if [ $? == 0 ]; then</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    cmdline=&quot;clk_ignore_unused pd_ignore_unused cma=128M&quot;</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    dtb=&quot;devicetree /casper/dtbs/x1e80100-hp-elitebook-ultra-g1q.dtb&quot;</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  fi</span></code></pre></div>
+        <p>I'm still gonna give Ubuntu flak for making new builds
+        without actually changing anything meaningful, though. At this
+        point, the mainline kernel has had better compatibility for over
+        a month.</p>
+        <h2 id="whats-broken">What's broken</h2>
+        <p>Out of some quick testing, these things were still
+        broken:</p>
+        <ul>
+        <li>Wifi</li>
+        <li>Battery level</li>
+        <li>Audio</li>
+        <li>Processor isn't listed in GNOME settings for whatever
+        reason</li>
+        </ul>
+        <p>Based off the Postmarket OS page for the <a
+        href="https://wiki.postmarketos.org/wiki/ASUS_Vivobook_S_15_(asus-s5507q)">ASUS
+        Vivobook S 15</a>, I wouldn't be surprised if video hardware
+        encoding/decoding was broken too.</p>
+        <p>But for the most part, it's working as far as I've seen - at
+        least, not crashing. There's certainly some errors in
+        <code>journalctl</code>, ones that I might not report because
+        Ubuntu's bug reporting is horrible, but it works.</p>
+        <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>
