@@ -5,38 +5,10 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Tue, 08 Jul 2025 22:53:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 09 Jul 2026 08:35:12 +0000</lastBuildDate>
   <item>
-    <title>The ARM saga: part 0</title>
-    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-0.html</link>
-  </item>
-  <item>
-    <title>The ARM saga: part 1</title>
-    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-1.html</link>
-  </item>
-  <item>
-    <title>300</title>
-    <link>https://askiiart.net/blog/300.html</link>
-  </item>
-  <item>
-    <title>Another new PGP key</title>
-    <link>https://askiiart.net/blog/another-new-pgp-key.html</link>
-  </item>
-  <item>
-    <title>Foooooonts!</title>
-    <link>https://askiiart.net/blog/foooooonts.html</link>
-  </item>
-  <item>
-    <title>Marlin Boot Animations</title>
-    <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
-  </item>
-  <item>
-    <title>New PGP key, and new directory</title>
-    <link>https://askiiart.net/blog/new-pgp-key.html</link>
-  </item>
-  <item>
-    <title>This page is portable</title>
-    <link>https://askiiart.net/blog/this-page-is-portable.html</link>
+    <title>My site</title>
+    <link>https://askiiart.net/README.html</link>
   </item>
   <item>
     <title>Akkoma in Docker</title>
@@ -47,12 +19,48 @@
     <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
   </item>
   <item>
-    <title>My site</title>
-    <link>https://askiiart.net/README.html</link>
-  </item>
-  <item>
     <title>My Stack</title>
     <link>https://askiiart.net/stack.html</link>
+  </item>
+  <item>
+    <title>This page is portable</title>
+    <link>https://askiiart.net/blog/this-page-is-portable.html</link>
+  </item>
+  <item>
+    <title>Marlin Boot Animations</title>
+    <link>https://askiiart.net/blog/marlin-boot-animations.html</link>
+  </item>
+  <item>
+    <title>The ARM saga: part 2</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-2.html</link>
+  </item>
+  <item>
+    <title>The ARM saga - Special Edition: Windows</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-special-edition-windows.html</link>
+  </item>
+  <item>
+    <title>The ARM saga: part 1</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-1.html</link>
+  </item>
+  <item>
+    <title>The ARM saga: part 0</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-0.html</link>
+  </item>
+  <item>
+    <title>New PGP key, and new directory</title>
+    <link>https://askiiart.net/blog/new-pgp-key.html</link>
+  </item>
+  <item>
+    <title>Another new PGP key</title>
+    <link>https://askiiart.net/blog/another-new-pgp-key.html</link>
+  </item>
+  <item>
+    <title>300</title>
+    <link>https://askiiart.net/blog/300.html</link>
+  </item>
+  <item>
+    <title>Foooooonts!</title>
+    <link>https://askiiart.net/blog/foooooonts.html</link>
   </item>
 
 </channel>

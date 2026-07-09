@@ -9,63 +9,22 @@
     </head>
     <body class="line-numbers">
         <h1 id="askiiarts-site">askiiart's site</h1>
-        <p>I'm a hobby programmer, and co-founder and vice president of
-        the <a
-        href="https://codeberg.org/TCCD-CompSci-and-Coding-Club/">TCCD
-        CompSci and Coding Club</a>. I do stuff sometimes. This is my
-        site.</p>
-        <h2 id="personal-links">Personal links</h2>
+        <p>Just some random nerd that does tech stuff</p>
         <ul>
-        <li>Self-hosted git thing: <a
-        href="https://git.askiiart.net/askiiart">git.askiiart.net/askiiart</a>
-        (my main git thing)</li>
-        <li>GitHub: <a href="https://github.com/askiiart">askiiart</a>
-        (most stuff is mirrored here)</li>
-        <li>Codeberg: <a
-        href="https://codeberg.org/askiiart">askiiart</a> (only used for
-        club stuff)</li>
-        <li>Discord: <a
-        href="https://discord.com/users/552658564368302092">askiiart</a></li>
+        <li><a href="https://git.askiiart.net/askiiart">Forgejo</a>
+        (previously my main git thing, but after much downtime a lot of
+        my stuff is now on github)</li>
+        <li><a href="https://github.com/askiiart">GitHub</a> (most stuff
+        on forgejo is mirrored here)</li>
         </ul>
         <h2 id="site-links">Site Links</h2>
         <ul>
-        <li><a href="https://git.askiiart.net/">Gitea</a></li>
-        <li><a href="/repos/">My yum repo</a>
+        <li><a href="/repos/">Package repositories</a> - just some
+        repos, mostly focused on Fedora just because that's what I daily
+        drive currently.
         <ul>
-        <li>A yum repo for stuff I add. I'll probably make it into an
-        NVIDIA 470 driver repo because <a
-        href="https://www.youtube.com/watch?v=IVpOyKCNZYw">NVIDIA is a
-        pain</a>.</li>
-        </ul></li>
-        <li><a href="https://element.askiiart.net/">Element</a>
-        <ul>
-        <li>It's Element, the Matrix client</li>
-        </ul></li>
-        <li><a href="https://libreddit.askiiart.net/">LibReddit</a>
-        <ul>
-        <li>A Reddit frontend</li>
-        </ul></li>
-        <li><a href="https://nitter.askiiart.net/">Nitter</a>
-        <ul>
-        <li>An ad-free Twitter frontend</li>
-        </ul></li>
-        <li><a href="https://composerize.askiiart.net/">Composerize</a>
-        <ul>
-        <li>Convert docker run to docker compose.</li>
-        </ul></li>
-        <li><a href="https://invidious.askiiart.net/">Invidious</a>
-        <ul>
-        <li>A privacy-focused, ad-free YouTube frontend</li>
-        </ul></li>
-        <li><a href="https://status.askiiart.net/">Status</a>
-        <ul>
-        <li>The status page for all the publicly accessible services on
-        my site.</li>
-        </ul></li>
-        <li><a
-        href="https://bibliogram.askiiart.net/applysettings/3bb4944d6d346268ae9bd84f42bc9a51">Bibliogram</a>
-        <ul>
-        <li>An alternative frontend to Instagram</li>
+        <li>Supported by (mainly) CI running updates, see <a
+        href="https://git.askiiart.net/pkg-repo">here</a></li>
         </ul></li>
         </ul>
         <h2 id="pages">Pages</h2>
@@ -108,14 +67,84 @@
         match the docs sometimes.</li>
         </ul></li>
         </ul>
-        <h2 id="othermeta">Other/Meta</h2>
+        <h2 id="projects">Projects</h2>
+        <h3 id="hardware">Hardware</h3>
         <ul>
-        <li><a href="/pubkey.asc">PGP public key</a> (<a
-        href="/blog/another-new-pgp-key.html"><code>4BA4 1BD5 8C08 8A98 622B  9A1A 7939 D59E C80C 3C21</code></a>)</li>
-        <li><wrap>Monero: <a
-        href="monero:8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w&amp;tx_description=donation_from_site">8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w</a></wrap></li>
+        <li><a href="https://github.com/askiiart/the-claw-pnp">The Claw
+        PNP</a> - A pick-and-place head for Openbuilds 2020 gantry
+        plates, or the Ender-3 (and its variants). Theoretically capable
+        of automatically assembling 0201s.</li>
+        <li><a
+        href="https://github.com/askiiart/guilty-devboard-xrd">Guilty
+        Devboard Xrd</a> - a very compact (XIAO-like) nRF54LM20A
+        devboard, designed to be possible to produce with relatively
+        basic manufacturing capabilities for a reasonable price while
+        still not only being competitive with real XIAO devboards, but
+        hopefully beating them in both power usage and power delivery.
+        Mostly done, but still needs a few fixes.
+        <ul>
+        <li>Will likely get a BGA version with all the features I
+        <em>intended</em> for it once the nRF54LM20A is available for
+        PCBA.</li>
+        </ul></li>
+        <li><a
+        href="https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri">Guilty
+        Pad XX Λ Core Plus Yuri</a> - A TKL keyboard with a screen and a
+        knob, do whatever you want with it. Mostly done, but being
+        reworked for the devboard.
+        <ul>
+        <li>This was the intended use case of Guilty Devboard Xrd, but I
+        couldn't get enough pins while using the QFN package, and due to
+        limited manufacturing capabilities (nRF54LM20A is not available
+        for PCBA) BGA packages weren't an option.</li>
+        </ul></li>
+        <li><a href="https://github.com/askiiart/guilty-pad-gay">GUILTY
+        PAD -GAY-</a> - a poorly named, very gay macro pad. Nothing
+        particularly interesting here, but can be used with ZMK for
+        extra functionality when paired with the full-size keyboard.
+        Design is done.</li>
+        <li><a
+        href="https://github.com/askiiart/thrustmaster-ferrari-challenge-wheel-translator">Thrustmaster
+        FGT translator</a> - An extremely basic devboard that can be
+        used to adjust pedals for the Thrustmaster FGT wheel and its
+        variants.</li>
         </ul>
-        <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe>
+        <h3 id="software">Software</h3>
+        <ul>
+        <li><a
+        href="https://github.com/askiiart/torznab-toolkit">torznab-toolkit</a>
+        - A library for creating Torznab APIs. Just provide the search
+        functions, and Torznab will handle the API for you.
+        <ul>
+        <li>This is somewhat opinionated - Torznab is not a formal spec,
+        rather a jumbled together mess of different people adapting the
+        Newznab spec to fit torrents, with even attempts at a proper
+        spec being incomplete - so the toolkit fills in some of the gaps
+        where there's ambiguous or nonsense behavior. Fortunately for
+        this library, Torznab clients have to be pretty tolerant of
+        issues anyways, as very popular implementations of the Torznab
+        API are very incomplete.</li>
+        </ul></li>
+        <li><a
+        href="https://github.com/askiiart/cat2text-rs">Cat2Text-rs</a> -
+        An extended port of <a
+        href="https://github.com/askiiart/Cat2Text">Cat2Text</a> (which
+        encodes English text as cat noises) to Rust. Adds tons of
+        functionality as well as better documentation and the ability to
+        be used as a library, not just a binary.</li>
+        <li><a
+        href="https://github.com/askiiart/better-commands-rs">better-commands-rs</a>
+        - A little helper crate for running commands via Rust. Can
+        provide timestamps and which stream a line was printed to, as
+        well as running code in real-time as the command runs.</li>
+        <li><a href="https://textbook.askiiart.net/">This site runs on a
+        textbook</a> - A site that, at one point, ran on a digital
+        textbook. Disclaimer: no longer runs on that. Also, some of the
+        details at the end are very out of date, it's been a while since
+        I touched this.</li>
+        </ul>
+        <!-- alas, johnvertisements is dead... at least for now -->
+        <!-- <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe> ->>
         <script src="/prism.js"></script>
     </body>
     <footer>

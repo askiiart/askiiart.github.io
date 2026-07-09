@@ -5,38 +5,46 @@
   <title>askiiart.net blog</title>
   <description>The feed for askiiart.net but just the blog, I guess</description>
   <link>https://askiiart.net/blog/</link>
-  <lastBuildDate>Tue, 08 Jul 2025 22:53:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 09 Jul 2026 08:35:12 +0000</lastBuildDate>
   <item>
-    <title>The ARM saga: part 0</title>
-    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-0.html</link>
-  </item>
-  <item>
-    <title>The ARM saga: part 1</title>
-    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-1.html</link>
-  </item>
-  <item>
-    <title>300</title>
-    <link>https://askiiart.net/til/300.html</link>
-  </item>
-  <item>
-    <title>Another new PGP key</title>
-    <link>https://askiiart.net/til/another-new-pgp-key.html</link>
-  </item>
-  <item>
-    <title>Foooooonts!</title>
-    <link>https://askiiart.net/til/foooooonts.html</link>
+    <title>This page is portable</title>
+    <link>https://askiiart.net/til/this-page-is-portable.html</link>
   </item>
   <item>
     <title>Marlin Boot Animations</title>
     <link>https://askiiart.net/til/marlin-boot-animations.html</link>
   </item>
   <item>
+    <title>The ARM saga: part 2</title>
+    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-2.html</link>
+  </item>
+  <item>
+    <title>The ARM saga - Special Edition: Windows</title>
+    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-special-edition-windows.html</link>
+  </item>
+  <item>
+    <title>The ARM saga: part 1</title>
+    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-1.html</link>
+  </item>
+  <item>
+    <title>The ARM saga: part 0</title>
+    <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-0.html</link>
+  </item>
+  <item>
     <title>New PGP key, and new directory</title>
     <link>https://askiiart.net/til/new-pgp-key.html</link>
   </item>
   <item>
-    <title>This page is portable</title>
-    <link>https://askiiart.net/til/this-page-is-portable.html</link>
+    <title>Another new PGP key</title>
+    <link>https://askiiart.net/til/another-new-pgp-key.html</link>
+  </item>
+  <item>
+    <title>300</title>
+    <link>https://askiiart.net/til/300.html</link>
+  </item>
+  <item>
+    <title>Foooooonts!</title>
+    <link>https://askiiart.net/til/foooooonts.html</link>
   </item>
 
 </channel>

@@ -1,33 +1,14 @@
 # askiiart's site
 
-I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci and Coding Club](https://codeberg.org/TCCD-CompSci-and-Coding-Club/). I do stuff sometimes. This is my site.
+Just some random nerd that does tech stuff
 
-## Personal links
-
-- Self-hosted git thing: [git.askiiart.net/askiiart](https://git.askiiart.net/askiiart) (my main git thing)
-- GitHub: [askiiart](https://github.com/askiiart) (most stuff is mirrored here)
-- Codeberg: [askiiart](https://codeberg.org/askiiart) (only used for club stuff)
-- Discord: [askiiart](https://discord.com/users/552658564368302092)
+- [Forgejo](https://git.askiiart.net/askiiart) (previously my main git thing, but after much downtime a lot of my stuff is now on github)
+- [GitHub](https://github.com/askiiart) (most stuff on forgejo is mirrored here)
 
 ## Site Links
 
-- [Gitea](https://git.askiiart.net/)
-- [My yum repo](/repos/)
-  - A yum repo for stuff I add. I'll probably make it into an NVIDIA 470 driver repo because [NVIDIA is a pain](https://www.youtube.com/watch?v=IVpOyKCNZYw).
-- [Element](https://element.askiiart.net/)
-  - It's Element, the Matrix client
-- [LibReddit](https://libreddit.askiiart.net/)
-  - A Reddit frontend
-- [Nitter](https://nitter.askiiart.net/)
-  - An ad-free Twitter frontend
-- [Composerize](https://composerize.askiiart.net/)
-  - Convert docker run to docker compose.
-- [Invidious](https://invidious.askiiart.net/)
-  - A privacy-focused, ad-free YouTube frontend
-- [Status](https://status.askiiart.net/)
-  - The status page for all the publicly accessible services on my site.
-- [Bibliogram](https://bibliogram.askiiart.net/applysettings/3bb4944d6d346268ae9bd84f42bc9a51)
-  - An alternative frontend to Instagram
+- [Package repositories](/repos/) - just some repos, mostly focused on Fedora just because that's what I daily drive currently.
+  - Supported by (mainly) CI running updates, see [here](https://git.askiiart.net/pkg-repo)
 
 ## Pages
 
@@ -46,9 +27,22 @@ I'm a hobby programmer, and co-founder and vice president of the [TCCD CompSci a
   - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
   - [Akkoma in Docker](/til/akkoma-in-docker.html) - uh I figured out how to do Akkoma in Docker cuz it doesn't quite match the docs sometimes.
 
-## Other/Meta
+## Projects
 
-[//]: # (For CSS for wrapping even if cutting off the word, see /style.css)
+### Hardware
 
-- [PGP public key](/pubkey.asc) ([`4BA4 1BD5 8C08 8A98 622B  9A1A 7939 D59E C80C 3C21`](/blog/another-new-pgp-key.html))
-- <wrap>Monero: [8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w](monero:8B7KKtrTLVuAva39qEfb6acvocX7gN1DANkaatSutDPZ7ySpCoVn8jndZcFUQyhnLAD8MjuNv983w7ZG79oZv8KBCFEo69w&tx_description=donation_from_site)</wrap>
+- [The Claw PNP](https://github.com/askiiart/the-claw-pnp) - A pick-and-place head for Openbuilds 2020 gantry plates, or the Ender-3 (and its variants). Theoretically capable of automatically assembling 0201s.
+- [Guilty Devboard Xrd](https://github.com/askiiart/guilty-devboard-xrd) - a very compact (XIAO-like) nRF54LM20A devboard, designed to be possible to produce with relatively basic manufacturing capabilities for a reasonable price while still not only being competitive with real XIAO devboards, but hopefully beating them in both power usage and power delivery. Mostly done, but still needs a few fixes.
+  - Will likely get a BGA version with all the features I *intended* for it once the nRF54LM20A is available for PCBA.
+- [Guilty Pad XX Λ Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) - A TKL keyboard with a screen and a knob, do whatever you want with it. Mostly done, but being reworked for the devboard.
+  - This was the intended use case of Guilty Devboard Xrd, but I couldn't get enough pins while using the QFN package, and due to limited manufacturing capabilities (nRF54LM20A is not available for PCBA) BGA packages weren't an option.
+- [GUILTY PAD -GAY-](https://github.com/askiiart/guilty-pad-gay) - a poorly named, very gay macro pad. Nothing particularly interesting here, but can be used with ZMK for extra functionality when paired with the full-size keyboard. Design is done.
+- [Thrustmaster FGT translator](https://github.com/askiiart/thrustmaster-ferrari-challenge-wheel-translator) - An extremely basic devboard that can be used to adjust pedals for the Thrustmaster FGT wheel and its variants.
+
+### Software
+
+- [torznab-toolkit](https://github.com/askiiart/torznab-toolkit) - A library for creating Torznab APIs. Just provide the search functions, and Torznab will handle the API for you.
+  - This is somewhat opinionated - Torznab is not a formal spec, rather a jumbled together mess of different people adapting the Newznab spec to fit torrents, with even attempts at a proper spec being incomplete - so the toolkit fills in some of the gaps where there's ambiguous or nonsense behavior. Fortunately for this library, Torznab clients have to be pretty tolerant of issues anyways, as very popular implementations of the Torznab API are very incomplete.
+- [Cat2Text-rs](https://github.com/askiiart/cat2text-rs) - An extended port of [Cat2Text](https://github.com/askiiart/Cat2Text) (which encodes English text as cat noises) to Rust. Adds tons of functionality as well as better documentation and the ability to be used as a library, not just a binary.
+- [better-commands-rs](https://github.com/askiiart/better-commands-rs) - A little helper crate for running commands via Rust. Can provide timestamps and which stream a line was printed to, as well as running code in real-time as the command runs.
+- [This site runs on a textbook](https://textbook.askiiart.net/) - A site that, at one point, ran on a digital textbook. Disclaimer: no longer runs on that. Also, some of the details at the end are very out of date, it's been a while since I touched this.
