@@ -32,8 +32,7 @@ Just some random nerd that does tech stuff
 ### Hardware
 
 - [The Claw PNP](https://github.com/askiiart/the-claw-pnp) - A pick-and-place head for Openbuilds 2020 gantry plates, or the Ender-3 (and its variants). Theoretically capable of automatically assembling 0201s.
-- [Guilty Devboard Xrd](https://github.com/askiiart/guilty-devboard-xrd) - a very compact (XIAO-like) nRF54LM20A devboard, designed to be possible to produce with relatively basic manufacturing capabilities for a reasonable price while still not only being competitive with real XIAO devboards, but hopefully beating them in both power usage and power delivery. Mostly done, but still needs a few fixes.
-  - Will likely get a BGA version with all the features I *intended* for it once the nRF54LM20A is available for PCBA.
+- [Guilty Devboard Xrd](https://github.com/askiiart/guilty-devboard-xrd) - a XIAO-like nRF54LM20A devboard, something of a middle ground between the XIAO nRF52840 Plus and XIAO nRF54LM20A - [**docs**](/docs/guilty-devboard-xrd.html)
 - [Guilty Pad XX Λ Core Plus Yuri](https://github.com/askiiart/guilty-pad-xx-accent-core-plus-yuri) - A TKL keyboard with a screen and a knob, do whatever you want with it. Mostly done, but being reworked for the devboard.
   - This was the intended use case of Guilty Devboard Xrd, but I couldn't get enough pins while using the QFN package, and due to limited manufacturing capabilities (nRF54LM20A is not available for PCBA) BGA packages weren't an option.
 - [GUILTY PAD -GAY-](https://github.com/askiiart/guilty-pad-gay) - a poorly named, very gay macro pad. Nothing particularly interesting here, but can be used with ZMK for extra functionality when paired with the full-size keyboard. Design is done.
