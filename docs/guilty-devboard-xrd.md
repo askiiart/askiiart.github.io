@@ -25,3 +25,9 @@ Note: The pins on the Xrd are not the same, this board was mostly done with desi
 ## Manufacturing
 
 It is recommended to get the PCB manufactured by JLCPCB (uses JLC0616H-3313), as well as getting a non-framework stencil and applying solder paste using a stencil printer such as the [JLC1010](https://jlcmc.com/product/b/L15/BR12406/smt-stencil-printing-suitable-for-100x100mm-stencils). Then use a pick and place machine (see [here](https://github.com/askiiart/the-claw-pnp)) to install the components, and reflow in an oven or on a hot plate, either should work as it's simple double-sided components (albeit quite precise).
+
+## Pinout
+
+![](/assets/docs/guilty-devboard-xrd/front-pads.png)
+
+![](/assets/docs/guilty-devboard-xrd/rear-pads.png)
