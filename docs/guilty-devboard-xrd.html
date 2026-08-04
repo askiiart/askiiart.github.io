@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>Guilty Devboard Xrd Documentation</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="guilty-devboard-xrd-documentation">Guilty Devboard Xrd
+        Documentation</h1>
+        <p>Guilty Devboard Xrd is a XIAO nRF54LM20A clone(-ish). Its
+        competition is of course the XIAO nRF54LM20A, but also, the XIAO
+        nRF52840 Plus. This is because the former does not have its own
+        built-in antenna, instead relying on an external antenna. While
+        this is a reasonable choice, this makes it unsuitable as a
+        perfect successor to the the XIAO nRF52840.</p>
+        <p>More to the point, these are the alternatives to the Xrd,
+        which is <em>designed to be compatible with both</em>. You can
+        replace essentially any XIAO nRF52840 Plus design with the Xrd
+        and it should work perfectly, whereas for the XIAO nRF54LM20A
+        most designs will work, the only issue being those relying on
+        the last few GPIO pins.</p>
+        <p><img
+        src="/assets/docs/guilty-devboard-xrd/guilty-devboard-xrd.png" /></p>
+        <h2 id="xiao-nrf52840-plus-comparison-and-compatibility">XIAO
+        nRF52840 Plus comparison and compatibility</h2>
+        <p>The XIAO nRF52840 Plus is a fairly basic board, and as such
+        its capabilities are not only essentially fully cloned, but
+        exceeded by Xrd. It is perfectly compatible with the nRF52840,
+        but with the addition of 7 extra GPIO pins, a far higher current
+        limit on the 3.3V pin, battery sensing that won't burn out, and
+        up to ~7x faster charging (configurable to many different
+        levels).</p>
+        <p>The only things the Xrd was not able to clone were the reset
+        button, and the charging LED. I was unable to find a button that
+        small (even the TS-1088 is far too large, and finding
+        appropriate buttons for this stuff is surprisingly hard), so
+        instead it's simply bridged with <a
+        href="https://wiibrew.org/wiki/Fail0verflow">twiizers</a>, and
+        the charge LED I simply do not care about, forgot existed, and
+        cannot be bothered to add both because routing is pain, and
+        because I do not want it regardless.</p>
+        <h2 id="xiao-nrf54lm20a-comparison-and-compatibility">XIAO
+        nRF54LM20A comparison and compatibility</h2>
+        <p>The XIAO nRF54LM20A is a very impressive board, however as
+        previously mentioned, it is imperfect. It makes up for all the
+        deficiencies (at least in my opinion) of the nRF52840 Plus, but
+        adds its own in the lack of a chip antenna, and the guarantee on
+        how much 3.3V power can be drawn (1A total, including the board
+        itself).</p>
+        <p>The XIAO nRF54LM20A is <em>unquestionably a better board
+        aside from that</em>. The XIAO nRF54LM20A has an additional 4
+        pads at the bottom, as well as an additional pad on the rear 8 -
+        D14, which was planned but unfortunately was impossible (or at
+        least impractical) to make room for given the manufacturing
+        capabilities available.</p>
+        <p><img
+        src="/assets/docs/guilty-devboard-xrd/xiao-nrf54lm20a-bottom-pads.png" /></p>
+        <p>Note: The pins on the Xrd are not the same, this board was
+        mostly done with design by the time the XIAO nRF54LM20A was
+        released, but they should have the same functions, at least for
+        the most part.</p>
+        <h2 id="manufacturing">Manufacturing</h2>
+        <p>It is recommended to get the PCB manufactured by JLCPCB (uses
+        JLC0616H-3313), as well as getting a non-framework stencil and
+        applying solder paste using a stencil printer such as the <a
+        href="https://jlcmc.com/product/b/L15/BR12406/smt-stencil-printing-suitable-for-100x100mm-stencils">JLC1010</a>.
+        Then use a pick and place machine (see <a
+        href="https://github.com/askiiart/the-claw-pnp">here</a>) to
+        install the components, and reflow in an oven or on a hot plate,
+        either should work as it's simple double-sided components
+        (albeit quite precise).</p>
+        <!-- alas, johnvertisements is dead... at least for now -->
+        <!-- <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe> ->>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>

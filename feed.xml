@@ -5,7 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Thu, 09 Jul 2026 08:35:12 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 04:56:58 +0000</lastBuildDate>
   <item>
     <title>My site</title>
     <link>https://askiiart.net/README.html</link>
@@ -21,6 +21,10 @@
   <item>
     <title>My Stack</title>
     <link>https://askiiart.net/stack.html</link>
+  </item>
+  <item>
+    <title>Guilty Devboard Xrd Documentation</title>
+    <link>https://askiiart.net/docs/guilty-devboard-xrd.html</link>
   </item>
   <item>
     <title>This page is portable</title>
