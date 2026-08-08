@@ -22,9 +22,9 @@ The XIAO nRF54LM20A is *unquestionably a better board aside from that*. The XIAO
 
 Note: The pins on the Xrd are not the same, this board was mostly done with design by the time the XIAO nRF54LM20A was released, but they should have the same functions, at least for the most part.
 
-## Manufacturing
+## Manufacturing/assembly
 
-It is recommended to get the PCB manufactured by JLCPCB (uses JLC0616H-3313), as well as getting a non-framework stencil and applying solder paste using a stencil printer such as the [JLC1010](https://jlcmc.com/product/b/L15/BR12406/smt-stencil-printing-suitable-for-100x100mm-stencils). Then use a pick and place machine (see [here](https://github.com/askiiart/the-claw-pnp)) to install the components, and reflow in an oven or on a hot plate, either should work as it's simple double-sided components (albeit quite precise).
+It is recommended to get the PCB manufactured by JLCPCB (uses JLC0616H-3313), as well as getting a non-framework stencil and applying solder paste using a stencil printer such as the [JLC1010](https://jlcmc.com/product/b/L15/BR12406/smt-stencil-printing-suitable-for-100x100mm-stencils). Then use a pick and place machine (see [here](https://github.com/askiiart/the-claw-pnp)) to install the components, and reflow in an oven or on a hot plate, either should work as it's simple single-sided components (albeit quite precise).
 
 ## Pinout
 

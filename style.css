@@ -110,3 +110,8 @@ blockquote {
     padding-left: 1em;
     margin-left: 0.5;
 }
+
+img {
+    max-width: 70vw;
+    max-height: 70vh;
+}
