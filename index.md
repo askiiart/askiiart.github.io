@@ -16,6 +16,7 @@ Just some random nerd that does tech stuff
 - [Blog](/blog/)
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation.
   - [300](/blog/300.html) - Figuring out 300 Multiple Choices
+  - [This page is portable](/blog/this-page-is-portable.html) - It's in the name
   - [The ARM/Elitebook G1q Saga](/blog/elitebook-g1q/) - I got an ARM laptop, and it's not in the kernel yet (it's barely supported at all).
     - [Part 0](/blog/elitebook-g1q/the-arm-saga-part-0.html)
     - [Part 1](/blog/elitebook-g1q/the-arm-saga-part-1.html) - it boots!
