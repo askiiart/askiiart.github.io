@@ -5,7 +5,7 @@
   <title>askiiart.net blog</title>
   <description>The feed for askiiart.net but just the blog, I guess</description>
   <link>https://askiiart.net/blog/</link>
-  <lastBuildDate>Thu, 13 Aug 2026 00:03:37 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 00:36:23 +0000</lastBuildDate>
   <item>
     <title>This page is portable</title>
     <link>https://askiiart.net/til/this-page-is-portable.html</link>
@@ -35,20 +35,8 @@
     <link>https://askiiart.net/til/elitebook-g1q/the-arm-saga-part-0.html</link>
   </item>
   <item>
-    <title>New PGP key, and new directory</title>
-    <link>https://askiiart.net/til/new-pgp-key.html</link>
-  </item>
-  <item>
-    <title>Another new PGP key</title>
-    <link>https://askiiart.net/til/another-new-pgp-key.html</link>
-  </item>
-  <item>
     <title>300</title>
     <link>https://askiiart.net/til/300.html</link>
-  </item>
-  <item>
-    <title>Foooooonts!</title>
-    <link>https://askiiart.net/til/foooooonts.html</link>
   </item>
 
 </channel>
