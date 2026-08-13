@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>Fixing Steam PGP for APT (FEX-Emu)</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="fixing-steam-pgp-for-apt-fex-emu">Fixing Steam PGP for
+        APT (FEX-Emu)</h1>
+        <p>For whatever reason, after installing Steam according to
+        FEX-Emu's instructions, its key was either outdated or missing
+        entirely. To fix this, just grab the key from <a
+        href="https://repo.steampowered.com/steam/archive/stable/steam.gpg">Steam's
+        repo</a>.</p>
+        <div class="sourceCode" id="cb1"><pre
+        class="language-sh"><code class="language-bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> wget <span class="at">-O</span> /usr/share/keyrings/steam.gpg https://repo.steampowered.com/steam/archive/stable/steam.gpg</span></code></pre></div>
+        <!-- alas, johnvertisements is dead... at least for now -->
+        <!-- <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe> ->>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>

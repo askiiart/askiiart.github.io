@@ -5,7 +5,7 @@
   <title>askiiart.net</title>
   <description>The feed for askiiart.net, I guess</description>
   <link>https://askiiart.net</link>
-  <lastBuildDate>Tue, 04 Aug 2026 04:56:58 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 13 Aug 2026 00:03:37 +0000</lastBuildDate>
   <item>
     <title>My site</title>
     <link>https://askiiart.net/README.html</link>
@@ -17,6 +17,10 @@
   <item>
     <title>Using JSON with docker compose</title>
     <link>https://askiiart.net/til/using-json-with-docker-compose.html</link>
+  </item>
+  <item>
+    <title>Fixing Steam PGP for APT (FEX-Emu)</title>
+    <link>https://askiiart.net/til/apt-fixing-steam-pgp.html</link>
   </item>
   <item>
     <title>My Stack</title>
@@ -37,6 +41,10 @@
   <item>
     <title>The ARM saga: part 2</title>
     <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-part-2.html</link>
+  </item>
+  <item>
+    <title>The ARM saga - Special Edition: Debian</title>
+    <link>https://askiiart.net/blog/elitebook-g1q/the-arm-saga-special-edition-debian.html</link>
   </item>
   <item>
     <title>The ARM saga - Special Edition: Windows</title>

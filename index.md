@@ -12,7 +12,7 @@ Just some random nerd that does tech stuff
 
 ## Pages
 
-- This page ([markdown](/index.md))
+- This page
 - [Blog](/blog/)
   - [Marlin Boot Animations](/blog/marlin-boot-animations.html) - Make your Marlin boot screen animated! Includes animation formatting documentation.
   - [300](/blog/300.html) - Figuring out 300 Multiple Choices
@@ -22,10 +22,12 @@ Just some random nerd that does tech stuff
   - [The ARM/Elitebook G1q Saga](/blog/elitebook-g1q/) - I got an ARM laptop, and it's not in the kernel yet (it's barely supported at all).
     - [Part 0](/blog/elitebook-g1q/the-arm-saga-part-0.html)
     - [Part 1](/blog/elitebook-g1q/the-arm-saga-part-1.html) - it boots!
+    - [Special Edition - Debian](/blog/elitebook-g1q/the-arm-saga-special-edition-debian.html) - it works *properly*, on Debian (forky)! (after some tweaks)
 - [TIL](/til/)
   - Just little tidbits I learn, inspired by [Simon Willison's TIL](https://til.simonwillison.net/), which was itself inspired by [jbranchaud/til](https://github.com/jbranchaud/til).
-  - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like. ([markdown](/til/using-json-with-docker-compose.md))
+  - [Using JSON with docker compose](/til/using-json-with-docker-compose.html) - Exactly what it sounds like.
   - [Akkoma in Docker](/til/akkoma-in-docker.html) - uh I figured out how to do Akkoma in Docker cuz it doesn't quite match the docs sometimes.
+  - [Fixing Steam PGP for APT (FEX-Emu)](/til/apt-fixing-steam-pgp.md) - FEX-Emu's Steam instructions are a bit broken
 
 ## Projects
 

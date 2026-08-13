@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta content="width=device-width, initial-scale=1" charset="utf-8" />
+        <link rel="icon" href="/assets/askiiart.avif" type="image/icon">
+        <title>The ARM saga - Special Edition: Debian</title>
+        <link href="/style.css" type="text/css" rel="stylesheet" />
+        <link href="/prism.css" rel="stylesheet" />
+    </head>
+    <body class="line-numbers">
+        <h1 id="the-arm-saga---special-edition-debian">The ARM saga -
+        Special Edition: Debian</h1>
+        <p>Plus some context in the form of bits I hadn't gotten around
+        to writing about.</p>
+        <hr />
+        <h2 id="debian-yayyy">Debian yayyy</h2>
+        <p>By now, support for my laptop has been added to the mainline
+        kernel, and it <em>should</em> work on Debian forky (currently
+        in testing). However, I found that for whatever reason (most
+        likely the installer itself is rarely updated), the devicetree
+        is <a
+        href="http://http.us.debian.org/debian/dists/forky/main/installer-arm64/current/images/device-tree/qcom/">missing
+        from Debian's kernel</a>. To get around this, I copied the
+        devicetree from postmarketOS's package to the boot partition
+        (after deleting <code>grubaa64.efi</code> to clear up some
+        space), and then adding it to the arguments in grub with
+        <code>devicetree (cd0,msdos2)/dtb/x1e80100-hp-elitebook-ultra-g1q.dtb</code>
+        - although of course this means I had to rely on the boot order
+        being set properly, as the keyboard doesn't work in grub if I
+        use the boot menu.</p>
+        <p>After doing that, it seems to work flawlessly, aside from the
+        lack of networking of course. For just installing Debian I'm
+        relying on a USB ethernet adapter, but in a bit we'll get to the
+        actual details and what I haven't gotten around to writing since
+        the last post.</p>
+        <h2 id="post-install">post-install</h2>
+        <p>Of course, after installing it's lacking the devicetree, so I
+        have to add that myself. But of course, postmarketOS is now
+        broken (previously working, article coming about that), so I
+        can't just boot that up and fix Debian. Luckily, Ubuntu has
+        great ARM support, so I was just able to boot into that
+        instead.</p>
+        <p>To make this <em>much</em> easier to do with kernel updates
+        (rather than being static), I chose to switch to systemd-boot.
+        So I mounted the disk at <code>/mnt</code>, then mounted
+        everything else as normal (copying the Gentoo handbook):</p>
+        <div class="sourceCode" id="cb1"><pre
+        class="language-sh"><code class="language-bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> /dev/nvme0n1p3 /mnt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> /dev/nvme0n1p2 /mnt/boot/efi</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--types</span> proc /proc /mnt/proc</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--rbind</span> /sys /mnt/sys</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--make-rslave</span> /mnt/sys</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--rbind</span> /dev /mnt/dev</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--make-rslave</span> /mnt/dev</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--bind</span> /run /mnt/run</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">mount</span> <span class="at">--make-slave</span> /mnt/run </span></code></pre></div>
+        <p>Then I just installed systemd-boot...</p>
+        <div class="sourceCode" id="cb2"><pre
+        class="language-sh"><code class="language-bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">apt</span> update</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">apt</span> install systemd-boot</span></code></pre></div>
+        <p>And the other part of this article that matters - configured
+        it to actually be helpful. I set
+        <code>/etc/kernel/devicetree</code> to
+        <code>qcom/x1e80100-hp-elitebook-ultra-g1q.dtb</code>.</p>
+        <p>Then set <code>/etc/kernel/cmdline</code> to
+        <code>root=UUID=12345678-abcd-1234-abcd-123456789abc rw clk_ignore_unused pd_ignore_unused arm64.nopauth quiet splash console=tty0</code></p>
+        <p>And ran
+        <code>kernel-install remove &lt;kernel version&gt;</code> and
+        <code>kernel-install add &lt;kernel version&gt; /boot/vmlinuz</code>
+        to re-add the kernel.</p>
+        <p>Note this did not go anywhere near as smoothly as this
+        article makes it seem, this is just my best effort at
+        amalgamating my knowledge after many failures.</p>
+        <p>But yeah, it works actually!</p>
+        <h2 id="the-problems">The Problems</h2>
+        <p>Currently, my specific laptop is not in the
+        <code>firmware-qcom-soc</code> package, and seemingly <em>this
+        specific variant</em> of my WiFi chip isn't supported by
+        <code>firmware-atheros</code> either. Hence I have no graphics
+        acceleration, nor any WiFi. To fix this, I just created <a
+        href="https://git.askiiart.net/pkg-repo/firmware-elitebook-ultra-g1q">a
+        package</a> with a symlink fixing the GPU firmware path, and
+        which replaces <code>firmware-atheros</code>'s firmware with <a
+        href="https://github.com/jglathe/qca-swiss-army-knife/raw/4be38939a006c76e12436636843135713112de1c/tools/scripts/ath11k/board-2.bin.zst">this</a>.</p>
+        <div class="sourceCode" id="cb3"><pre
+        class="language-sh"><code class="language-bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> wget <span class="at">-O</span> /etc/apt/sources.list.d/askiiart.sources https://askiiart.net/repos/debian/askiiart.sources</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> apt install firmware-elitebook-ultra-g1q</span></code></pre></div>
+        <p>This also went far, far less smoothly than this makes it seem
+        - I had to go through 2 different tools for creates
+        <em>both</em> the package and repo, and each one took plenty of
+        troubleshooting. But eventually, it worked and this is the end
+        result.</p>
+        <h3 id="battery">Battery</h3>
+        <p>There's also no battery sensing, but that's not a
+        Debian-specific problem. There's just no support for it in
+        upower yet as far as I know, and it works on neither
+        postmarketOS, nor Ubuntu.</p>
+        <hr />
+        <p>P.S. Once there's a new kernel I'll test out if
+        that/systemd-boot is working correctly/updates properly, but as
+        for now, yeag it seems to be good</p>
+        <!-- alas, johnvertisements is dead... at least for now -->
+        <!-- <iframe src="https://john.citrons.xyz/embed?ref=askiiart.net" style="margin-left:auto;display:block;margin-right:auto;max-width:732px;width:100%;height:94px;border:none;"></iframe> ->>
+        <script src="/prism.js"></script>
+    </body>
+    <footer>
+        <p><a href="https://git.askiiart.net/askiiart/askiiart-net">code</a> (<a href="https://github.com/askiiart/askiiart.github.io">mirror</a>)&emsp;<a href="/feed.xml">rss</a>&emsp;<a href="/pubkey.asc">pubkey</a></p>
+    </footer>
+</html>
